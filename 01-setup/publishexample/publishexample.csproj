@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Target Name="PostCleanWin" 
+          AfterTargets="Clean" 
+          Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))'">
+    <Exec Command="rm .\bin -r" />
+    <Exec Command="rm .\obj -r" />
+    <Exec Command="echo Delete all generated files" />
+  </Target>
+
+  <Target Name="PostCleanLinux" 
+          AfterTargets="Clean" 
+          Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">
+    <Exec Command="rm -r ./bin" />
+    <Exec Command="rm -r ./obj" />
+    <Exec Command="echo Delete all generated files" />
+  </Target>
+</Project>
