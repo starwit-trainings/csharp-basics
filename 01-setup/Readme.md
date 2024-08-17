@@ -10,14 +10,24 @@ No programming course can be complete without a hello world program. So here it 
     dotnet run 
 ```
 
+### Tasks
+* Run app from command line
+* open app with your IDE and run it from there
+
 ## Publish Example
 Runnin software with developer tools or from your IDE may be nice, but productive software needs to shipped. Thus it is necessary to create shippable packages. This example has no actual functionality, but will demonstrate, how you can package your solution.
 
-As usual running the solution. works like this:
+As usual running the solution works like this:
 
 ```shell
     cd publishexample
     dotnet run 
+```
+
+In order to publish the solution, use the following command:
+```shell
+    cd publishexample
+    dotnet publish publishexample.csproj  
 ```
 
 If you want to create a single executable file, use the following command:
@@ -28,3 +38,7 @@ If you want to create a single executable file, use the following command:
 The publish command offers a lot of options and you can read more on those in the [dotnet documentation](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)
 
 In this example it also worth looking into csproj file. There a custom target is defined, which will delete some generated files/folders. It serves as an example, how to add custom jobs to .Nets build system and to run them with respect to the operating system.
+
+### Tasks
+* Run app from command line
+* try various publish options and find the single created file. Move this file to a different place and test, if it is running from there.
