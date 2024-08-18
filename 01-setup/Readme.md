@@ -33,9 +33,16 @@ In order to publish the solution, use the following command:
 If you want to create a single executable file, use the following command:
 ```shell
     cd publishexample
-    dotnet publish -c Release --self-contained true -p:PublishSingleFile=true
+    dotnet publish -c Release --self-contained true 
+    -p:PublishSingleFile=true
 ```
-The publish command offers a lot of options and you can read more on those in the [dotnet documentation](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)
+The publish command offers a lot of options and you can read more on those in the [dotnet documentation](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-publish).
+
+If you run this command, you'll find a single file binary of your software in the _bin_ folder. Depending on your operating system, subfolder will differ.
+
+__Linux__
+
+![Linux](../imgs/publish_linux.jpg)
 
 In this example it also worth looking into csproj file. There a custom target is defined, which will delete some generated files/folders. It serves as an example, how to add custom jobs to .Nets build system and to run them with respect to the operating system.
 
