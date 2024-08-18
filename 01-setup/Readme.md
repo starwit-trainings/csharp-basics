@@ -1,5 +1,11 @@
-# Setup & Building Apps
+# Chapter 01 Setup & Building Apps
 This section contains first examples and shall guide you, how to build and run C# apps. All of these example are meant to be run from the command line of your favourite operating system. However you will find equivalent functionalities in most IDEs like Visual Studio or Visual Studio Code.
+
+## Help to help yourself
+Learning a new programming language is not done, by just a single introduction course, but it is something, that takes a long time. So be prepared for a long journey of learning. In order to improve your skills on your own, you can use many great resources on the internet. One of those is Mircosoft's C# language [docu](https://learn.microsoft.com/en-us/dotnet/csharp/). 
+
+### Tasks
+Run through the first tutorial that can be found [here](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world?tutorial-step=1)
 
 # Examples
 
@@ -44,8 +50,13 @@ __Linux__
 
 ![Linux](../imgs/publish_linux.jpg)
 
+__Windows__
+
+TODO
+
 In this example it also worth looking into csproj file. There a custom target is defined, which will delete some generated files/folders. It serves as an example, how to add custom jobs to .Nets build system and to run them with respect to the operating system.
 
 ### Tasks
 * Run app from command line
 * try various publish options and find the single created file. Move this file to a different place and test, if it is running from there.
+* Use your IDE's debugger and run through program step by step
