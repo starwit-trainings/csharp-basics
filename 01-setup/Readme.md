@@ -1,4 +1,4 @@
-# Chapter 01 Setup & Building Apps
+# Chapter 01 - Setup & Building Apps
 This section contains first examples and shall guide you, how to build and run C# apps. All of these example are meant to be run from the command line of your favourite operating system. However you will find equivalent functionalities in most IDEs like Visual Studio or Visual Studio Code.
 
 ## Help to help yourself

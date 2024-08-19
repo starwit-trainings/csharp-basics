@@ -1,4 +1,4 @@
-# Chapter 02 C# Language introduction
+# Chapter 02 - C# Language introduction
 
 * Variables and Data, constants
 * Control Flow
