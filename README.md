@@ -13,3 +13,4 @@ After the very first steps this chapter will make you familiar with C#'s basic s
 After introducing the various aspects of the C# programming language, this section contains a number of real world examples. This means here you find a number of projects, that can be used to start developing real programs, ranging from native user interface to web applications. List of examples and tasks can be found [here](06-real-world-example/Readme.md).
 
 ## License
+All code examples in this repository are published under the AGPLv3 license. License agreement can be found [here](LICENSE). You are most welcome, to use this material in both self learning or teaching students. However any modification - especially bugfixes - must be published. So if you find mistakes or bugs, pull requests are very much appreciated.
