@@ -4,6 +4,8 @@
  * This example shows various options to control the flow of a program in C#.
  */
 
+Console.WriteLine("This example shows you, how control structures and concepts work in C#");
+
 // let's make a decision
 int i = 5;
 if (i > 10)

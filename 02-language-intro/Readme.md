@@ -55,6 +55,8 @@ Or use the run button in your IDE.
 ## 03 - Operators
 Calculating results is another important building block, to write software. How to work with operators is thus the topic of this example.
 
+There are more Operators as we cover in this example, if you want to know them all, see official [documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/).
+
 ### How to execute
 On the commandline use this to run program:
 ```shell
@@ -64,7 +66,12 @@ On the commandline use this to run program:
 Or use the run button in your IDE.
 
 ### Tasks
-* Run program
+* Run program with various inputs
+* choose two numeric and the two floating point types and create two variables each. Try all arithmetic operators from [here](https://www.w3schools.com/cs/cs_operators.php). 
+* try also the == operator for each numeric type combination. Play with various values.
+* Consider expression 10 + a/10 - can you control operator precedence?
+* create two double variables and set them both to max double value. Now subtract 1 from one of those and use all [comparison operators](https://www.w3schools.com/cs/cs_operators_comparison.php) - can you explain each result?
+
 
 ## 04 - On type conversion
 As C# is a statically typed language, dealing with converting types, is a necessity. For example storing text based user input into to proper variables and converting the various primitive types into each other are common tasks. Another helpful concept are implicit types - in many cases, the C# compiler can infer which type to use.
@@ -79,6 +86,7 @@ Or use the run button in your IDE.
 
 ### Tasks
 * Run program
+
 
 ## 05 - Working with date and time
 It is obvious, that dealing with date and time data is also an important task. If you know the right tools, it is however not a difficult task. This example shows you how to work with date and time data.
@@ -110,6 +118,7 @@ Or use the run button in your IDE.
 
 ## 07 - On commenting and documenting your code
 Comments and documentation are an essential part of software development. So there are language features, tools and best practices. This example shall give you guidance, when to use comments and how to take advantage of tools in the C# eco-system. 
+Another important aspect is logging state of your application. Up to this point, we used plain console outputs with no further information. In this example we will use [Microsoft logging](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line).
 
 ### How to execute
 On the commandline use this to run program:
@@ -121,3 +130,4 @@ Or use the run button in your IDE.
 
 ### Tasks
 * inspect code and check all comments used
+* see logging output and change 
