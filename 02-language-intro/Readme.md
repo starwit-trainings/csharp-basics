@@ -25,7 +25,12 @@ Or use the run button in your IDE.
 * any idea, how to create to longest possible String?
 
 ## 02 - Control Flow
-Making decisions is an obvious feature, that a programming language needs. So this example shows you, how to use decisions and loops to structure your software.
+Making decisions is an obvious feature, that a programming language needs. So this example shows you, how to use decisions and loops to structure your software. Langauge features in this example are
+* if/else blocks [Hints](https://www.w3schools.com/cs/cs_conditions.php)
+* for loop [Hints](https://www.w3schools.com/cs/cs_for_loop.php)
+* while loop [Hints](https://www.w3schools.com/cs/cs_while_loop.php)
+* switch blocks [Hints](https://www.w3schools.com/cs/cs_switch.php)
+* break/continue [Hints](https://www.w3schools.com/cs/cs_break.php)
 
 ### How to execute
 On the commandline use this to run program:
@@ -36,7 +41,16 @@ On the commandline use this to run program:
 Or use the run button in your IDE.
 
 ### Tasks
-* Run program
+* Run program with various inputs
+* extend program
+    * run a for loop as many times as user's age
+    * run a while loop as many times as user's age
+    * comment politely on user's age
+    * check if user's name is in a list of names (choose 3) and give a special output for your choosen names and a generic output for any other name. Implement this task with a switch block
+    * C# also offers an [else-if construct](https://www.w3schools.com/cs/cs_conditions_elseif.php). Implement last task with else-if. Which version do like better and why?
+* in loops sometimes, execution needs to be skipped or stopped. C# offers [break/continue](https://www.w3schools.com/cs/cs_break.php) statement for this task. 
+    * Write a for loop that runs till 100 and breaks, if entered age is reached.
+    * Write a while loop that skips when reaching entered age
 
 ## 03 - Operators
 Calculating results is another important building block, to write software. How to work with operators is thus the topic of this example.
