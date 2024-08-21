@@ -89,7 +89,10 @@ On the commandline use this to run program:
 Or use the run button in your IDE.
 
 ### Tasks
-* Run program
+* Run program and observe output
+* Look at conversion from double to float - any idea, to explain this behaviour?
+* add typ conversions with max/min values for all numeric types in C# and print results
+* try to parse a string containing a number into all numeric types in C# and print results
 
 
 ## 05 - Working with date and time
