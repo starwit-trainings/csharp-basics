@@ -1,6 +1,6 @@
 ﻿
 Console.WriteLine("This project demonstrate, what kind of simple data types one can store with C#");
-Console.WriteLine("Let's start with numbers");
+Console.WriteLine("Numbers *****************************");
 
 int anInteger = 25;
 Console.WriteLine("Integer type: " + anInteger);
@@ -25,11 +25,20 @@ Console.WriteLine("Floating point types: " + myDouble + " " + myFloat);
 myDouble = double.MaxValue;
 Console.WriteLine("Max value for double: " + myDouble + " vs " + (myDouble + 1));
 
-// text
+Console.WriteLine("Strings *****************************");
 string name = "Bob";
 string name2 = "Alice";
 Console.WriteLine("Some strings: " + name + " and " + name2);
+// find first occurance of character/string
+Console.WriteLine(name.IndexOf('o'));
+// first substring 
+Console.WriteLine(name.Substring(0,2)); // using methods
+Console.WriteLine(name[0..2]); // using array notation
 
+string escapedString ="String with special characters \"";
+Console.WriteLine(escapedString);
+
+Console.WriteLine("Characters *****************************");
 char aCharacter = name[0];
 Console.WriteLine("Single characters are also possible " + aCharacter);
 Console.WriteLine("Let's check char values:");
@@ -38,8 +47,19 @@ Console.WriteLine(aCharacter);
 aCharacter = '\u0AFF';
 Console.WriteLine(aCharacter);
 
-// misc
+Console.WriteLine("Misc *****************************");
 bool isBoolean = true;
 Console.WriteLine("Let's try boolean values " + isBoolean);
 isBoolean = false;
 Console.WriteLine("Let's change boolean values " + isBoolean);
+
+// on UTF
+Console.OutputEncoding = System.Text.Encoding.Unicode;
+
+char character = '\u0305';
+Console.WriteLine(character);
+
+/* for(int i = 0; i < char.MaxValue/2; i++) {
+    char tmp = (char)i;
+    System.Console.WriteLine(tmp);
+} */

@@ -21,6 +21,10 @@ Or use the run button in your IDE.
 * now add one to each max value and print the result, subtract one for the min value and print result
 * some numeric types are signed - what happens, if you try to subtract one from the min value? Why is this working when using Console.WriteLine
 * Observe floating values when adding to max value - any idea, what happens here?
+* With strings one can do a lot of things - [see docs](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/) for more info
+    * Create a string with all escaped characters in doc and observe output
+    * Try string formating using curly bracket notation and output an integer within a string
+    * Change string "Bob" to "Bobby" using replace function (docs Substrings)
 * play with various values for character type - what's the funniest character you can get?
 * any idea, how to create to longest possible String?
 
@@ -101,6 +105,22 @@ Or use the run button in your IDE.
 
 ### Tasks
 * Run program
+* Create four DateTimes and add four different work times. Output resulting time.
+* Create four timezones and output dates from last task for those timezones.
+* There are many options to output format for DateTimes
+    * Using [Format](https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) options - produce at least three different time formats
+    * Try all ouput methods from [DateTime documentation](https://learn.microsoft.com/en-us/dotnet/api/system.datetime?view=net-8.0)
+* Parse dates from string examples, try to create more date strings and parse them.
+* add the following code, to list all availabe timezones
+    ```c#
+        ReadOnlyCollection<TimeZoneInfo> timezones = TimeZoneInfo.GetSystemTimeZones();
+        foreach (var timezone in timezones)
+        {
+            Console.WriteLine(timezone.DisplayName + " " + TimeZoneInfo.ConvertTimeFromUtc(utcNow, timezone));
+        }
+    ```
+    * Observe time zones and try to extract more info from each timezone, see [docs](https://learn.microsoft.com/en-us/dotnet/api/system.timezoneinfo?view=net-8.0)
+    * __Bonus Challenge__ use String manipulation methods to extract a numeric value for the time distance to UTC for each timezone.
 
 ## 06 - Methods, Parameters and structuring your code
 At this point it has become clear, that software is composed of a lot of source code. Thus in this example, we will learn how to use methods. It is a first tool to break down larger software into smaller, easier to maintaining components.
@@ -114,7 +134,8 @@ On the commandline use this to run program:
 Or use the run button in your IDE.
 
 ### Tasks
-* Run program
+* Run program and observe output, make sure you understand code
+* select a random datetime and display it in every time zone
 
 ## 07 - On commenting and documenting your code
 Comments and documentation are an essential part of software development. So there are language features, tools and best practices. This example shall give you guidance, when to use comments and how to take advantage of tools in the C# eco-system. 
