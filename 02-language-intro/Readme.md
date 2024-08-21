@@ -160,12 +160,17 @@ Or use the run button in your IDE.
 ### Tasks
 * Run program and observe output, make sure you understand code
 * Change function parameters and observe results
+* If you run from CLI, you can provide parameters like so:
+    ```shell
+    dotnet run param1 param2
+    ```
 * Change function AFunctionWithParams that its outputs depends on param. Decide how many cases you want to support and if you want to use switch/case or if/else.
 * Change function AFunctionWithReturnValue such that it 
 * Write a function that takes a string array as parameter and returns a concatenated string of all array elements.
 * call that function and use result of ReadData method as input
 * write a function, that splits every line of ReadData output into a string array (see last example)
 * now write a function, that runs through output of ReadData and returns an array of string arrays with the content of ReadData output.
+* Change your program, such that the method from last task is only called, if a parameter _d_ is present.
 
 ## 08 - On commenting and documenting your code
 Comments and documentation are an essential part of software development. So there are language features, tools and best practices. This example shall give you guidance, when to use comments and how to take advantage of tools in the C# eco-system. 
