@@ -93,6 +93,7 @@ Or use the run button in your IDE.
 * Look at conversion from double to float - any idea, to explain this behaviour?
 * add typ conversions with max/min values for all numeric types in C# and print results
 * try to parse a string containing a number into all numeric types in C# and print results
+* test two implicit variables for any primitive type in C# and output result
 
 
 ## 05 - Working with date and time

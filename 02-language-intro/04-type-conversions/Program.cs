@@ -39,3 +39,10 @@ Console.WriteLine(number);
 numberAsString = "10000.546";
 double myDouble = double.Parse(numberAsString);
 Console.WriteLine(myDouble);
+
+Console.WriteLine("on implicit typing ************************************");
+var whatIsThis = "a string";
+var whatIsThat = 100.89;
+Console.WriteLine(whatIsThis + " " + whatIsThat);
+Console.WriteLine(whatIsThis.GetType() == typeof(string));
+Console.WriteLine(whatIsThat.GetType() == typeof(double));
