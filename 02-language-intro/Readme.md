@@ -142,6 +142,8 @@ Or use the run button in your IDE.
 * create a string array that contains 5 numbers like "10.3" and run through it, parse every value into a double value and add this to a new double array. If you want to generate random numbers, use [this method](https://learn.microsoft.com/en-us/dotnet/api/system.random?view=net-8.0)
 * look at the 2-dimensional array - write code, that creates a transposed version of this array.
 * Write code, that adds 1 to each element of the original 2D array
+* Enhance that code, such that new values are added to a new 2D array
+* Now take the two arrays and write code, that compares each element of both arrays. Create output if there are any unequal elements. 
 * Use string methods including [split](https://learn.microsoft.com/en-us/dotnet/api/system.string.split?view=net-8.0) to extract values from the data string array. Put id, club name and league name into individual arrays with a proper type. Can you do this with extracting necessary size of new arrays from input data?
 
 ## 07 - Methods, Parameters and structuring your code
@@ -158,7 +160,12 @@ Or use the run button in your IDE.
 ### Tasks
 * Run program and observe output, make sure you understand code
 * Change function parameters and observe results
-* 
+* Change function AFunctionWithParams that its outputs depends on param. Decide how many cases you want to support and if you want to use switch/case or if/else.
+* Change function AFunctionWithReturnValue such that it 
+* Write a function that takes a string array as parameter and returns a concatenated string of all array elements.
+* call that function and use result of ReadData method as input
+* write a function, that splits every line of ReadData output into a string array (see last example)
+* now write a function, that runs through output of ReadData and returns an array of string arrays with the content of ReadData output.
 
 ## 08 - On commenting and documenting your code
 Comments and documentation are an essential part of software development. So there are language features, tools and best practices. This example shall give you guidance, when to use comments and how to take advantage of tools in the C# eco-system. 
