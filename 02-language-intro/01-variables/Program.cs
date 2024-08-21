@@ -53,7 +53,11 @@ Console.WriteLine("Let's try boolean values " + isBoolean);
 isBoolean = false;
 Console.WriteLine("Let's change boolean values " + isBoolean);
 
-// on UTF
+Console.WriteLine("constants *****************************");
+const double growthRate = 0.07;
+Console.WriteLine("Constants are simple to use: " + growthRate);
+
+Console.WriteLine("Play with UTF *****************************");
 Console.OutputEncoding = System.Text.Encoding.Unicode;
 
 char character = '\u0305';
