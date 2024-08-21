@@ -126,29 +126,48 @@ Or use the run button in your IDE.
     * Observe time zones and try to extract more info from each timezone, see [docs](https://learn.microsoft.com/en-us/dotnet/api/system.timezoneinfo?view=net-8.0)
     * __Bonus Challenge__ use String manipulation methods to extract a numeric value for the time distance to UTC for each timezone.
 
-## 06 - Methods, Parameters and structuring your code
+## 06 - Arrays
+Storing more than one value is very helpful for many tasks. This section introduces the most basic datastructure in C# that lets you work with multiple values. Arrays can store all sorts of data and are used everywhere. As they are useful and omnipresent, check [documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/arrays) for more info.
+
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd 06-arrays
+    dotnet run
+```
+Or use the run button in your IDE.
+
+### Tasks
+* Run program
+* create a string array that contains 5 numbers like "10.3" and run through it, parse every value into a double value and add this to a new double array. If you want to generate random numbers, use [this method](https://learn.microsoft.com/en-us/dotnet/api/system.random?view=net-8.0)
+* look at the 2-dimensional array - write code, that creates a transposed version of this array.
+* Write code, that adds 1 to each element of the original 2D array
+* Use string methods including [split](https://learn.microsoft.com/en-us/dotnet/api/system.string.split?view=net-8.0) to extract values from the data string array. Put id, club name and league name into individual arrays with a proper type. Can you do this with extracting necessary size of new arrays from input data?
+
+## 07 - Methods, Parameters and structuring your code
 At this point it has become clear, that software is composed of a lot of source code. Thus in this example, we will learn how to use methods. It is a first tool to break down larger software into smaller, easier to maintaining components.
 
 ### How to execute
 On the commandline use this to run program:
 ```shell
-    cd 06-methods-and-params
+    cd 07-methods-and-params
     dotnet run
 ```
 Or use the run button in your IDE.
 
 ### Tasks
 * Run program and observe output, make sure you understand code
-* select a random datetime and display it in every time zone
+* Change function parameters and observe results
+* 
 
-## 07 - On commenting and documenting your code
+## 08 - On commenting and documenting your code
 Comments and documentation are an essential part of software development. So there are language features, tools and best practices. This example shall give you guidance, when to use comments and how to take advantage of tools in the C# eco-system. 
 Another important aspect is logging state of your application. Up to this point, we used plain console outputs with no further information. In this example we will use [Microsoft logging](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line).
 
 ### How to execute
 On the commandline use this to run program:
 ```shell
-    cd 07-documenting-code
+    cd 08-documenting-code
     dotnet run
 ```
 Or use the run button in your IDE.

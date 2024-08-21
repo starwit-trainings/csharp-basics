@@ -1,7 +1,7 @@
 ﻿using System;
 
 /**
- * This example shows the rolw and usage of operators in C#.
+ * This example shows the role and usage of operators in C#.
  */
 
 Console.WriteLine("This example shows you, how to use operators in C#");
