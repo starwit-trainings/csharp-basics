@@ -173,7 +173,8 @@ Or use the run button in your IDE.
 * Change your program, such that the method from last task is only called, if a parameter _d_ is present.
 
 ## 08 - On commenting and documenting your code
-Comments and documentation are an essential part of software development. So there are language features, tools and best practices. This example shall give you guidance, when to use comments and how to take advantage of tools in the C# eco-system. 
+Comments and documentation are an essential part of software development. So there are language features, tools and best practices. This example shall give you guidance, when to use comments and how to take advantage of tools in the C# eco-system. See [C# docs](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/) for detailed information.
+
 Another important aspect is logging state of your application. Up to this point, we used plain console outputs with no further information. In this example we will use [Microsoft logging](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line).
 
 ### How to execute
@@ -186,4 +187,6 @@ Or use the run button in your IDE.
 
 ### Tasks
 * inspect code and check all comments used
-* see logging output and change 
+* add proper documentation comments to all methods
+* 
+* replace all console outputs by log messages, choose an approriate log level - how do you decide?
