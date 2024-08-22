@@ -188,5 +188,5 @@ Or use the run button in your IDE.
 ### Tasks
 * inspect code and check all comments used
 * add proper documentation comments to all methods
-* 
+* TODO generate [docfx](https://www.codeproject.com/Articles/5259812/Use-DocFx-to-Generate-a-Documentation-Web-Site-and)
 * replace all console outputs by log messages, choose an approriate log level - how do you decide?

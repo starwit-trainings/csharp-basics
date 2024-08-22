@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>_07_documenting_code</RootNamespace>
+    <RootNamespace>_08_documenting_code</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -11,6 +11,23 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
   </ItemGroup>
+
+  <Target Name="PostCleanWin" AfterTargets="Clean" Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))'">
+    <Exec Command="rm .\bin -r" />
+    <Exec Command="rm .\obj -r" />
+    <Exec Command="echo Delete all generated files" />
+  </Target>
+
+  <Target Name="PostCleanLinux" AfterTargets="Clean" Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">
+    <Exec Command="rm -r ./bin" IgnoreExitCode="true" />
+    <Exec Command="rm -r ./obj" IgnoreExitCode="true" />
+    <Exec Command="rm -r ./docs" IgnoreExitCode="true" />
+    <Exec Command="rm ./toc.yml" IgnoreExitCode="true" />
+    <Exec Command="rm ./index.md" IgnoreExitCode="true" />
+    <Exec Command="echo Delete all generated files" />
+  </Target>  
 
 </Project>
