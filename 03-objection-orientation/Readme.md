@@ -55,7 +55,7 @@ The following picture shows a model subset from last subsection, that we are goi
 Every entity from the football application domain is represented by a class. As we will deal with many instances for every class e.g. there will 18 clubs for the first German football league. So we need a mechanism to tell those instances apart. For this a unique id is used and as this is necessary for all classes, attributes and logic needed are put in an AbstractEntity class from which all others will inherit.
 
 ## 01 - OO concepts
-This example introduces a first insight, on how to store data in C# programs. A list of C#'s built-in data can be found [here](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types)
+Getting a first idea how to work with classes and objects is the topic of this example. You will start to implement the classes introduced in the last subsection and play with possibilities to combine data and code.
 
 ### How to execute
 On the commandline use this to run program:
@@ -69,14 +69,38 @@ Or use the run button in your IDE.
 * Run program
 * Create a class for Leagues, Games and Players
 * Make sure all class definitions inherit from AbstracEntity
-* override getObjectSize method in every class you wrote
+* Create instances for every class and set fields with values of your choice
+* Override getObjectSize method in every class you wrote - think of an appropriate concept, to measure size of an object.
+* Look at method ToString in ClubEntity and replace base implementation with the one commented out.
 * create a ToString method for every class, that outputs all fields enclosed in curly brackets
 
 ## 02 - Working with objects and relations
 
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd 02-relations
+    dotnet run
+```
 
 ### Tasks
-* create three league/club/player/game objects and fill all fields
-* for every class create a list and put your instances into that list
-* create (nice) output for all instances content
-* set relations
+* Copy your class definition from last chapter
+* Create three objects for each league/club/player/game class fill all fields
+* For every class create an array and put your instances into that array, note setting proper ids
+* Create a method that outputs all instances content in each array.
+* Why are arrays a very bad idea?
+* Id field in every class + reference allows you to implement relations from UML diagram - write a method, that takes a LeagueEntity + an array of ClubEntites and outputs all clubs playing in given league.
+* Ids are a pretty complicated way, to do this - any idea, what else is possible?
+* Consider following code:
+  ```C#
+    internal class ClubEntity: AbstractEntity
+    {
+        LeagueEntity myLeague;
+
+        public LeagueEntity MyLeague
+        {
+            get {return myLeague;}
+            set {myLeague = value;}
+        }
+  ```
+  Replace all single relations, with a reference to an actual object. Adapt data setup section in constructor.
