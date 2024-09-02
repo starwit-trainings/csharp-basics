@@ -7,9 +7,9 @@ namespace ooconcepts
     {
         readonly ILogger logger;
 
-        LeagueEntity[] leagues = new LeagueEntity[3];
+        readonly LeagueEntity[] leagues = new LeagueEntity[3];
 
-        ClubEntity[] clubs = new ClubEntity[4];
+        readonly ClubEntity[] clubs = new ClubEntity[4];
 
         public static void Main(string[] args)
         {
@@ -65,5 +65,3 @@ namespace ooconcepts
         }
     }
 }
-
-

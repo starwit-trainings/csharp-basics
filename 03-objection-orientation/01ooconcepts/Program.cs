@@ -7,6 +7,7 @@ namespace ooconcepts
     {
         readonly ILogger logger;
         readonly ClubEntity ce;
+        
         public static void Main(string[] args)
         {
             var p = new Program();
