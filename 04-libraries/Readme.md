@@ -30,3 +30,5 @@ Or use the run button in your IDE.
 * Run program
 * Open 01-json.csproj and study file content, find reference for JSON library we want to use.
 * Copy all other class definitions from last chapter, create arrays for each of them and add three object instances. Try to output those arrays as JSON like the club example.
+* Look at the deserialized club array. Output it's content.
+* Take serialized output from the three other classes and deserialize them like the club example. Output content of created arrays.
