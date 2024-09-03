@@ -2,8 +2,8 @@
 marp: true
 paginate: true
 theme: default 
-header: ![h:35](imgs/starwit.png)
-footer: 'Starwit Technologies GmbH | C#'
+header: ![h:35](../imgs/starwit.png)
+footer: 'Starwit Technologies GmbH | C# | 1. Tools, Setup & .NET'
 ---
 
 <style>
@@ -24,13 +24,13 @@ section.lead {
   text-align: center;
   margin-bottom: 40px;
 }
+section.lead h2 {
+  font-size: 2.5rem;
+}
 section {
   font-size: 1.5rem;
 }
-section.lead h1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-}
+
 section.linked footer {
   display: none;
 }
@@ -70,17 +70,20 @@ a:hover {
 }
 
 </style>
-
-# 1. Tools, Setup & .NET
-## Agenda   
-* Introduction to C# & the .NET runtime (slides)
-* Git & why version management is crucial (slides)
-* Visual Studio & the role of the IDE (discussion)
-* MSBuild & how to build softwares (task)
-* Hello World! (task)
+<!-- _class: lead -->
+## 1. Tools, Setup & .NET
 
 ---
-# 1. Tools, Setup & .NET
+# Agenda   
+* Introduction to C# & the .NET runtime
+* Git & why version management is crucial
+* Visual Studio & the role of the IDE
+* MSBuild & how to build softwares
+* Task: Hello World!
+
+---
+# 1. Introduction to C# and the .NET runtime
+
 ## .Net
 
 * Free == free available
@@ -91,7 +94,9 @@ a:hover {
     * libraries and development tools for application development
 
 ---
-# 1. Tools, Setup & .NET
+# 1. Introduction to C# and the .NET runtime
+
+
 ## .Net != .Net Framework
 
 |.Net|.Net Framework|
@@ -103,16 +108,17 @@ a:hover {
 > https://learn.microsoft.com/de-de/shows/dotnet-for-beginners/what-is-dotnet-dotnet-for-beginners
 
 ---
-# 1. Tools, Setup & .NET
+# 1. Introduction to C# and the .NET runtime
 ## What can you do with .Net?
 
 * you can run and develop:
   * Web applications
   * Mobile and desktop applications
   * Cloud-native apps
+* includes a compiler for C# and F#. A compiler translates the program to something the computer (operating system) can understand
 
 ---
-# 1. Tools, Setup & .NET
+# 1. Introduction to C# and the .NET runtime
 ## C#
 
 * Developed in 2002 by Anders Hejlsberg on behalf of Microsoft as part of the .NET strategy
@@ -120,32 +126,22 @@ a:hover {
 * object-oriented
 
 ---
-# 1. Tools, Setup & .NET
+# 1. Introduction to C# and the .NET runtime
 
 ## Tools
 * Visual Studio
 * Visual Studio Code
 
 ## Links
-* https://learn.microsoft.com/de-de/shows/dotnet-for-beginners/what-is-dotnet-dotnet-for-beginners
-* https://de.wikipedia.org/wiki/.NET_(Plattform)#Programmiersprachen
+* [Introduction videos](https://learn.microsoft.com/de-de/shows/dotnet-for-beginners/what-is-dotnet-dotnet-for-beginners)
+* [Wikipedia](https://de.wikipedia.org/wiki/.NET_(Plattform)#Programmiersprachen)
+* [Microsoft Training](https://learn.microsoft.com/de-de/training/modules/dotnet-introduction/?source=recommendations)
+* [Knowledge Check](https://learn.microsoft.com/de-de/training/modules/dotnet-introduction/6-knowledge-check)
 
 
 ---
-# 1. Tools, Setup & .NET
-## Visual Studio Code
-![h:400](../imgs/vs-code-extension.png)
-add extension
-
----
-# 1. Tools, Setup & .NET
-
-![h:400](../imgs/vs-code-new-project.png)
-create new project
-
----
-# 1. Tools, Setup & .NET
-## Git
+# 2. Git and why version management is crucial
+## Git Overview
 
 * in order to work together, you need to handle parallel changes of your team
 * Git is a version control system designed to do this
@@ -158,10 +154,72 @@ create new project
   * `git pull` get the latest changes from your repository
 
 ---
-# 1. Tools, Setup & .NET
+# 2. Git and why version management is crucial
+## Git Branches and Workflow
+
+![h:500](../imgs/git-branches.png)
+
+---
+# 2. Git and why version management is crucial
+
+## Pull Requests / Merge Requests
+* to merge feature branches in the main branch, pull request or merge requests can be created
+* a pull request can be reviewed and approved before merging
+
+## Advantages
+
+* you can work in a separated version of code (branch) without disturbing anyone
+* contolled way to do reviews before code is going live
+* building and maintaining more than one release is possible
+* versioned code history
+
+---
+# 3. Visual Studio and the role of the IDE
+## Visual Studio Code
+![h:400](../imgs/vs-code-extension.png)
+add extension
+
+---
+# 3. Visual Studio and the role of the IDE
+## Visual Studio Code - Create new Project
+* Option 1 via console: `dotnet new console -o ./CsharpProjects/TestProject`
+
+* Otpion 2 via IDE (Integrated Development Environment):
+![h:400](../imgs/vs-code-new-project.png)
+
+---
+# 4. MSBuild and how to build softwares
+## MSBuild Overview
+
+* build platform for Microsoft and Visual Studio
+* uses project file to manage the build
+* manage dependencies
+* declares framework version
+* run, build an publish projects
+* detailed information can be found [here](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2022)
+
+---
+# 4. MSBuild and how to build softwares
+## Publish application
+
+* creates a compiled version of a programm
+* self-contained: runnable without .Net framwork
+* framework-dependent: needs .Net
+* run `dotnet publish` on console
+
+---
+# 4. MSBuild and how to build softwares
 ## Installing packages with Nuget
 
 * Why: Using other peoples code via packages
 * Why a package manager:
   * tool for adding, deleting packages for your entire project independent of local machine
 * go to [nuget.org](Nuget.org) and search e.g. for PasswordGenerator
+
+---
+# Wissenscheck
+
+* Wofür dient die .Net-Plattform?
+* Was ist ein Compiler?
+* Aus welchen Dateien besteht ein C#-Projekt?
+* Wofür benötigt man einen Package Manager?

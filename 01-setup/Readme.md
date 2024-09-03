@@ -7,6 +7,8 @@ Learning a new programming language is not done, by just a single introduction c
 ### Tasks
 Run through the first tutorial that can be found [here](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world?tutorial-step=1)
 
+https://learn.microsoft.com/de-de/training/modules/csharp-write-first/
+
 # Examples
 
 ## Hello World
@@ -16,6 +18,8 @@ No programming course can be complete without a hello world program. So here it 
     dotnet run 
 ```
 
+ ! Hint: if you only want to compile your program, you can use `dotnet run`
+
 ### Tasks
 * Run app from command line
 * open app with your IDE and run it from there
@@ -24,7 +28,7 @@ No programming course can be complete without a hello world program. So here it 
     * generate and output a password
 
 ## Publish Example
-Runnin software with developer tools or from your IDE may be nice, but productive software needs to shipped. Thus it is necessary to create shippable packages. This example has no actual functionality, but will demonstrate, how you can package your solution.
+Running software with developer tools or from your IDE may be nice, but productive software needs to shipped. Thus it is necessary to create shippable packages. This example has no actual functionality, but will demonstrate, how you can package your solution.
 
 As usual running the solution works like this:
 
@@ -62,4 +66,5 @@ In this example it also worth looking into csproj file. There a custom target is
 ### Tasks
 * Run app from command line
 * try various publish options and find the single created file. Move this file to a different place and test, if it is running from there.
+* find out, for what the different published files are for see [here](https://learn.microsoft.com/de-de/dotnet/core/tutorials/publishing-with-visual-studio?pivots=dotnet-8-0) for more details
 * Use your IDE's debugger and run through program step by step
