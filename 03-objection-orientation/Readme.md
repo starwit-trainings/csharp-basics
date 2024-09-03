@@ -104,3 +104,35 @@ On the commandline use this to run program:
         }
   ```
   Replace all single relations, with a reference to an actual object. Adapt data setup section in constructor.
+
+## Lists & Generics
+In chapter 2 arrays were introduced and with those, one can create collections of all sorts of types. However arrays have serious limits, most of all one has to specify their size. Wouldn't it be great to have a data structure, that let's you add as many elements as necessar? C# offers indeed a lot of more sophisticated data structures know as [collections](https://learn.microsoft.com/en-us/dotnet/standard/collections/). 
+
+In this example we will look into lists and learn how to use them. Before we jump into the example's code, let's consider the following aspect. With arrays one needs to specify what kind of objects are stored in that particular array. As a reminder this is defines an array that can hold ten strings:
+```C#
+string[] emptyArray = new string[10];
+```
+
+Now a list of objects ist constructed by adding a reference to the next element. If you want to build a list from scratch, you would take e.g. the ClubEntity and add a ClubEntity reference to its fields. Of course you would need a lot functionality like adding/removing elements and writing this kind of code is boring - Generics to the rescue.
+
+The next code snippet shows you a list definition and in brackets you can specifiy the type of element stored in the list. And with that you are all set. This is called a generic data type and is based on the idea, that one can implement a great many functions, without knowing the exact structure of a class.
+```C#
+List<ClubEntity> clubs = new List<ClubEntity>();
+```
+Obviously this is a very broad topic and thus you are encouraged to read more. [Microsoft's documentation](https://learn.microsoft.com/en-us/dotnet/standard/collections/) is a good starting point.
+
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd 03-lists
+    dotnet run
+```
+
+### Tasks
+* Run program
+* Copy all class definitions from last project and create a list for each of them. Output contents of every list.
+* In the last section, we learned how to use actual object references instead of ids to implement relations of classes. Now add a list of clubs to the LeagueEntity. Put all clubs playing in a league into the LeagueEntity list.
+* Write a function, that takes a new ClubEntity and adds it to the list of all clubs and the list of clubs of the according LeagueEntity. Based on the league id in the club object, set the reference to the fitting LeagueEntity.
+* Implement the relations for all classes from the example's UML diagram.
+* Write a function, that takes a string as input and searches for all clubs with a name, starting with the input string.
+* Write a function, that takes a string as input and searches for all clubs with a name, containg the input string.
