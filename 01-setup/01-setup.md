@@ -190,7 +190,12 @@ add extension
 ---
 # 3. Visual Studio and the role of the IDE
 ## Visual Studio
-![h:400](../imgs/visual-studio.png)
+![h:500](../imgs/visual-studio.png)
+
+---
+# 3. Visual Studio and the role of the IDE
+## Visual Studio Debugging
+![h:500](../imgs/visual-studio2.png)
 
 ---
 # 4. MSBuild and how to build softwares
@@ -205,12 +210,22 @@ add extension
 
 ---
 # 4. MSBuild and how to build softwares
-## Publish application
+## Files in a project
 
-* creates a compiled version of a programm
-* self-contained: runnable without .Net framwork
-* framework-dependent: needs .Net
-* run `dotnet publish` on console
+* ***.sln**: solution - organisation of projects
+* ***.csproj**: project declaration, MSBuild commands, dependencies
+* ***.cs**: source code files
+
+---
+# 4. MSBuild and how to build softwares
+## Building an application
+
+| CLI_Commands_ | Description | Hints |
+|---|---|---|
+| `dotnet new` | create a new application | e.g. `dotnet new console -n myApp`
+| `dotnet build` | compile application |
+| `dotnet run` | execute application |
+| `dotnet publish`| creates a compiled version of an application | **self-contained:** runnable without .Net **framework-dependent:** needs .Net |
 
 ---
 # 4. MSBuild and how to build softwares
