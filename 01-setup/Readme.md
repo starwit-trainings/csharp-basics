@@ -19,6 +19,9 @@ No programming course can be complete without a hello world program. So here it 
 ### Tasks
 * Run app from command line
 * open app with your IDE and run it from there
+* additional task:
+    * use [nuget.org](nuget.org) to add package PasswordGenerator to your application
+    * generate and output a password
 
 ## Publish Example
 Runnin software with developer tools or from your IDE may be nice, but productive software needs to shipped. Thus it is necessary to create shippable packages. This example has no actual functionality, but will demonstrate, how you can package your solution.

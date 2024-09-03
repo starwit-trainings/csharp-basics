@@ -134,17 +134,18 @@ a:hover {
 ---
 # 1. Tools, Setup & .NET
 ## Visual Studio Code
-![h:400](imgs/vs-code-extension.png)
+![h:400](../imgs/vs-code-extension.png)
 add extension
 
 ---
 # 1. Tools, Setup & .NET
 
-![h:400](imgs/vs-code-new-project.png)
+![h:400](../imgs/vs-code-new-project.png)
 create new project
 
 ---
-# Git
+# 1. Tools, Setup & .NET
+## Git
 
 * in order to work together, you need to handle parallel changes of your team
 * Git is a version control system designed to do this
@@ -155,3 +156,12 @@ create new project
   * `git commit .` commits your changes in your local branch
   * `git push` pushes your changes to remote branch
   * `git pull` get the latest changes from your repository
+
+---
+# 1. Tools, Setup & .NET
+## Installing packages with Nuget
+
+* Why: Using other peoples code via packages
+* Why a package manager:
+  * tool for adding, deleting packages for your entire project independent of local machine
+* go to [nuget.org](Nuget.org) and search e.g. for PasswordGenerator
