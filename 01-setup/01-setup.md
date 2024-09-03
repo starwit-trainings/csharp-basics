@@ -188,6 +188,11 @@ add extension
 ![h:400](../imgs/vs-code-new-project.png)
 
 ---
+# 3. Visual Studio and the role of the IDE
+## Visual Studio
+![h:400](../imgs/visual-studio.png)
+
+---
 # 4. MSBuild and how to build softwares
 ## MSBuild Overview
 

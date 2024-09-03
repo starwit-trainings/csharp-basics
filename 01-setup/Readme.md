@@ -5,9 +5,9 @@ This section contains first examples and shall guide you, how to build and run C
 Learning a new programming language is not done, by just a single introduction course, but it is something, that takes a long time. So be prepared for a long journey of learning. In order to improve your skills on your own, you can use many great resources on the internet. One of those is Mircosoft's C# language [docu](https://learn.microsoft.com/en-us/dotnet/csharp/). 
 
 ### Tasks
-Run through the first tutorial that can be found [here](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world?tutorial-step=1)
+Run through the first tutorial that can be found [here](https://learn.microsoft.com/de-de/training/modules/csharp-write-first/)
 
-https://learn.microsoft.com/de-de/training/modules/csharp-write-first/
+https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world?tutorial-step=1
 
 # Examples
 
