@@ -32,3 +32,23 @@ Or use the run button in your IDE.
 * Copy all other class definitions from last chapter, create arrays for each of them and add three object instances. Try to output those arrays as JSON like the club example.
 * Look at the deserialized club array. Output it's content.
 * Take serialized output from the three other classes and deserialize them like the club example. Output content of created arrays.
+* Serialize/Deserialize a single instance of ClubEntity
+
+## 02 Working with XML
+
+The eXtensible markup language or XML is another data format, that is still widely used. Converting data to XML and reading data from XML is a standard task. In this example we will convert our football classes into XML and read data from XML.
+
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd 02-xml
+    dotnet run
+```
+Or use the run button in your IDE.
+
+### Tasks
+* Run program
+* Copy all other class definitions from last chapter, create arrays for each of them and add three object instances. Try to output those arrays as XML like the club example.
+* Look at the deserialized club array. Output it's content.
+* Take serialized output from the three other classes and deserialize them like the club example. Output content of created arrays.
+* Serialize/Deserialize a single instance of ClubEntity
