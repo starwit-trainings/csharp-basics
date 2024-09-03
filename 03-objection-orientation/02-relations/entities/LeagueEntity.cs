@@ -1,6 +1,4 @@
-using ooconcepts;
-
-namespace ooconcepts
+namespace entities
 {
     internal class LeagueEntity: AbstractEntity
     {

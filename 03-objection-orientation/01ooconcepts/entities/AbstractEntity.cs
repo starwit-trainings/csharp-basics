@@ -1,4 +1,4 @@
-namespace ooconcepts
+namespace entities
 {
     abstract class AbstractEntity
     {
