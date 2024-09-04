@@ -124,6 +124,7 @@ a:hover {
 * Developed in 2002 by Anders Hejlsberg on behalf of Microsoft as part of the .NET strategy
 * platform-independent
 * object-oriented
+* type-safe
 
 ---
 # 1. Introduction to C# and the .NET runtime

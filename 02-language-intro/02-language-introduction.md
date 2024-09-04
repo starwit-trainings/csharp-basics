@@ -76,7 +76,60 @@ a:hover {
 ---
 # Agenda
 
-* Language Introduction - Concepts, Structures, Data, Parameter 
+* Language Introduction - Concepts, Structures, Data, Parameter
+    * building blocks
+    * built-in types
+    * C# Operator
 * First real example 
 * Types of .NET applications 
 * Concept Object Orientated Programming 
+
+---
+# Language Introduction
+## Variables
+* A variable:
+    * holds a value
+    * has a data type
+    * is created in a declaration statement
+* coding convention for naming: 
+    * starting with lower case
+    * using camel case
+
+---
+# Language Introduction
+## Data Types
+Define 
+* Size and location in memory
+* Data range
+* Valid operators
+
+of/for a variable
+
+## Constants
+
+* using key-word `const`, e.g. `const int myInt = 10`
+
+---
+# Language Introduction
+## Control Flow
+* Codeblock: 
+    * contains several lines of code
+    * surrounded with `{ }`
+* boolean expression: 
+    * returns a boolean value
+    * operators: <, >, <=, >=, ==, !=
+
+---
+# Language Introduction
+## Control Flow
+* Condition: if statement (if, else if, else)
+* Loop: 
+    * for
+    * foreach
+    * while
+    * do-while
+* Switch: case statement
+* break / continue
+
+> more information and code examples can be find [here](https://www.w3schools.com/cs/cs_conditions.php)
+
