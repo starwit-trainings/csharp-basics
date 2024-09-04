@@ -143,4 +143,16 @@ of/for a variable
     `int[,] coordinates = {{1, 2}, {2,3}};`
 > more information can be find [here](https://www.w3schools.com/cs/cs_arrays_multi.php)
 
+---
+# Language Introduction
+## Operators
+
+* Arithmetic operators (+ - / * % ++ --) that perform arithmetic operations with numeric operands
+* Comparison operators (< > == <= >=) that compare numeric operands
+* Boolean logical operators (&& || ! ^ & |) that perform logical operations with bool operands
+* Bitwise and shift operators (~ >> << | & >>>) that perform bitwise or shift operations with operands of the integral types
+* Equality operators (== !=) that check if their operands are equal or not
+
+> [source](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/)
+
 
