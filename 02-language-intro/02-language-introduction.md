@@ -133,3 +133,14 @@ of/for a variable
 
 > more information and code examples can be find [here](https://www.w3schools.com/cs/cs_conditions.php)
 
+---
+# Language Introduction
+## Arrays
+
+* can have one or more dimensions
+
+    `string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};`
+    `int[,] coordinates = {{1, 2}, {2,3}};`
+> more information can be find [here](https://www.w3schools.com/cs/cs_arrays_multi.php)
+
+

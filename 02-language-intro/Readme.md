@@ -47,6 +47,8 @@ Or use the run button in your IDE.
 ### Tasks
 * Run program with various inputs
 * extend program
+    * if statement: 
+        * let the user input a number (hint: you have to use `Convert.ToInt32(..)` to get the user input as int)
     * run a for loop as many times as user's age
     * run a while loop as many times as user's age
     * comment politely on user's age
