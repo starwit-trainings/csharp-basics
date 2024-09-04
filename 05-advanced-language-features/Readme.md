@@ -66,7 +66,7 @@ Though a bit dated, ini files are still in use. Here is an example, how to read 
 ### How to execute
 On the commandline use this to run program:
 ```shell
-    cd files
+    cd inifiles
     dotnet run
 ```
 Or use the run button in your IDE.
@@ -77,6 +77,20 @@ Or use the run button in your IDE.
 * create an additional section with at least two config items and output them
 
 ## Dealing with CSV files
+Storing data in comma separated value files is a common way to exchange data. This example will show you, how to parse CSV files and turn their content into C# objects.
+
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd csvfiles
+    dotnet run
+```
+Or use the run button in your IDE.
+
+### Tasks
+* Run program
+* Write a method for each of the other three CSV files and parse them into according lists aof C# objects. 
+* Bonus challenge: Parse data such, that relations are implemented by C# references/lists.
 
 ## Delegates
 https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/using-delegates
