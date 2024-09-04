@@ -61,6 +61,20 @@ Or use the run button in your IDE.
 * Bonus challenge: write a method, that parse a line from the club csv and creates a ClubEntity each.
 
 ## Using INI files
+Though a bit dated, ini files are still in use. Here is an example, how to read values from an ini file.
+
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd files
+    dotnet run
+```
+Or use the run button in your IDE.
+
+### Tasks
+* Run program
+* output all other values from ini file
+* create an additional section with at least two config items and output them
 
 ## Dealing with CSV files
 
