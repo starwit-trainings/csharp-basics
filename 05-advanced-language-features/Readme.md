@@ -40,9 +40,25 @@ Or use the run button in your IDE.
 * Look ad assertions in [unit test](unittests/footballmanager-unittests/FootballService.Tests/UnitTest1.cs) - True vs Equal which one is better? 
 * Change expected values and observe output
 * Implement [function](unittests/footballmanager-unittests/FootballService/FootballManager.cs) to return a sorted club list and add a unit tests, checking the order of elements.
+* Use Intellisense to see more assertion functions.
 * Bonus challenge: add sorting functions & unit tests for all FootballManager entities.
 
 ## Working with files
+Working files needs no introduction - reading & writing from and to files are part of almost every development project. Here you learn, how to read files and write results to files. This example focuses on text files and reading them line by line. As you can imagine, C# offers many additional tools to work with files.
+
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd files
+    dotnet run
+```
+Or use the run button in your IDE.
+
+### Tasks
+* Run program
+* Add methods to read from the three other CSV files
+* Modify write method with checking, if file is empty before writing.
+* Bonus challenge: write a method, that parse a line from the club csv and creates a ClubEntity each.
 
 ## Using INI files
 
