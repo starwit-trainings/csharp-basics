@@ -25,6 +25,22 @@ Or use the run button in your IDE.
 * Bonus challenge: Make test.txt inaccessible for your user and run program again
 
 ## Unit Tests
+Making sure that everything, that worked yesterday, still works today, unit tests are very helpful. So this example is a (very brief) introduction into how to use unit tests in C#. Please see official documentation for [unit tests](https://learn.microsoft.com/en-us/dotnet/core/testing/) for more details. 
+
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd unittests/footballmanager-unittests
+    dotnet test
+```
+Or use the run button in your IDE.
+
+### Tasks
+* Run tests and observe results
+* Look ad assertions in [unit test](unittests/footballmanager-unittests/FootballService.Tests/UnitTest1.cs) - True vs Equal which one is better? 
+* Change expected values and observe output
+* Implement [function](unittests/footballmanager-unittests/FootballService/FootballManager.cs) to return a sorted club list and add a unit tests, checking the order of elements.
+* Bonus challenge: add sorting functions & unit tests for all FootballManager entities.
 
 ## Working with files
 
