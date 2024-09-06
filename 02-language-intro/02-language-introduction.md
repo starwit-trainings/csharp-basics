@@ -95,6 +95,7 @@ a:hover {
     * starting with lower case
     * using camel case
 
+
 ---
 # Language Introduction
 ## Data Types
@@ -104,6 +105,21 @@ Define
 * Valid operators
 
 of/for a variable
+
+> all built in types can be found [here](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types)
+
+---
+# Language Introduction
+## Implicitly typed local variables
+
+* declared without using a type
+```csharp
+// i is compiled as an int
+var i = 5;
+
+// s is compiled as a string
+var s = "Hello"
+```
 
 ## Constants
 

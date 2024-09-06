@@ -4,6 +4,11 @@
 
 Console.WriteLine("This example shows you, which options you have, to convert data types in C#");
 
+Console.WriteLine("Converting an normal number ************************************");
+long alongNumber = 10;
+int aintNumber = (int) alongNumber;
+Console.WriteLine(alongNumber + " vs " + aintNumber);
+
 Console.WriteLine("Converting big numbers to smaller numbers ************************************");
 long aBigNumber = long.MaxValue;
 int aSmallerNumber = (int) aBigNumber;
