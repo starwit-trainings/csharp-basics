@@ -1,4 +1,4 @@
-﻿/**
+/**
  * This example shows the role and usage of arrays in C#.
  */
 
@@ -7,7 +7,6 @@ Console.WriteLine("How to use arrays in C#");
 Console.WriteLine("String arrays **********************************");
 string[] myStrings = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-Console.WriteLine("Array size " + myStrings.Length);
 Console.WriteLine("Using foreach on array");
 foreach (var s in myStrings) {
     Console.Write(s + " ");
