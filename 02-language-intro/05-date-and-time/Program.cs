@@ -3,13 +3,15 @@
 // get current time
 var utcNow = DateTime.UtcNow;
 
-Console.WriteLine(utcNow);
-Console.WriteLine(utcNow.ToLocalTime());
+Console.WriteLine("UTC now: " + utcNow);
+Console.WriteLine("Local time: " + utcNow.ToLocalTime());
 Console.WriteLine(utcNow.IsDaylightSavingTime());
 
 // convert to another time zone
 TimeZoneInfo london = TimeZoneInfo.FindSystemTimeZoneById("Europe/London");
-Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcNow, london));
+Console.WriteLine("Time of Europe/London: " + TimeZoneInfo.ConvertTimeFromUtc(utcNow, london));
+
+//TODO: add additional timezones here...see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 Console.WriteLine("Creating DateTimes *******************************");
 // create a specific date/time
@@ -20,10 +22,14 @@ Console.WriteLine(utcTime);
 utcTime = new DateTime(1980, 01, 01);
 Console.WriteLine(utcTime);
 
+//TODO: add DateTimes 
+
 Console.WriteLine("Calculating with DateTimes *******************************");
 // some calculations
 utcTime = utcTime.AddDays(5);
 Console.WriteLine(utcTime);
+
+//TODO: add work times...
 
 TimeSpan passedTime = new TimeSpan(8,0,0);
 DateTime endtime = utcTime.Add(passedTime);

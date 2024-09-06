@@ -111,8 +111,9 @@ Or use the run button in your IDE.
 
 ### Tasks
 * Run program
+* Create four timezones and output dates from utcNow for those timezones.
 * Create four DateTimes and add four different work times. Output resulting time.
-* Create four timezones and output dates from last task for those timezones.
+
 * There are many options to output format for DateTimes
     * Using [Format](https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings) options - produce at least three different time formats
     * Try all ouput methods from [DateTime documentation](https://learn.microsoft.com/en-us/dotnet/api/system.datetime?view=net-8.0)
