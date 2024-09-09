@@ -1,6 +1,6 @@
 namespace entities
 {
-    abstract class AbstractEntity
+    public abstract class AbstractEntity
     {
         protected int id;
 

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-ooconcepts", "01-ooconcepts.csproj", "{438E21EF-C839-430E-8E4E-AA88F828BA1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballService", "FootballService.csproj", "{1460015F-6530-4BC0-8A29-9B2F6019BF5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{438E21EF-C839-430E-8E4E-AA88F828BA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{438E21EF-C839-430E-8E4E-AA88F828BA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{438E21EF-C839-430E-8E4E-AA88F828BA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{438E21EF-C839-430E-8E4E-AA88F828BA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1460015F-6530-4BC0-8A29-9B2F6019BF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1460015F-6530-4BC0-8A29-9B2F6019BF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1460015F-6530-4BC0-8A29-9B2F6019BF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1460015F-6530-4BC0-8A29-9B2F6019BF5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D2FED5E6-1607-4830-BD38-0DC238965A53}
+		SolutionGuid = {DD2288DE-2DD5-4492-BA7F-46B7EB2B8CD1}
 	EndGlobalSection
 EndGlobal

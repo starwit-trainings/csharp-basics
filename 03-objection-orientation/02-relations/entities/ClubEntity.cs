@@ -15,7 +15,7 @@ namespace entities
 
         public override string ToString()
         {
-            return base.ToString(); //"[" + ID + ", " + name + ", " + league + "]";
+            return "[" + ID + ", " + name + ", " + league + "]";
         }
 
         public string Name

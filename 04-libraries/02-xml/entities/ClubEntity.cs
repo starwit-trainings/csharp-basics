@@ -1,10 +1,16 @@
+
 namespace entities
 {
 
-    internal class ClubEntity: AbstractEntity
+    public class ClubEntity: AbstractEntity
     {
         private string name = "";
         private int league;
+
+        public ClubEntity()
+        {
+            
+        }
 
         public ClubEntity(int id, string name, int league)
         {
@@ -15,7 +21,7 @@ namespace entities
 
         public override string ToString()
         {
-            return base.ToString(); //"[" + ID + ", " + name + ", " + league + "]";
+            return "[" + ID + ", " + name + ", " + league + "]";
         }
 
         public string Name

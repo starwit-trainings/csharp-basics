@@ -6,8 +6,11 @@ namespace ooconcepts
     public class Program
     {
         readonly ILogger logger;
-        readonly ClubEntity ce;
-        
+
+        readonly LeagueEntity[] leagues = new LeagueEntity[3];
+
+        readonly ClubEntity[] clubs = new ClubEntity[4];
+
         public static void Main(string[] args)
         {
             var p = new Program();
@@ -20,14 +23,31 @@ namespace ooconcepts
 
             System.Console.WriteLine("Starting Program");
             logger.LogInformation("Program initialized");
-            ce = new ClubEntity(1,"Test",1);
+
+            logger.LogDebug("Creating Data");
+
+            clubs[0] = new ClubEntity(1,"FC Bayern Muenchen",1);
+            clubs[1] = new ClubEntity(2,"VfL Wolfsburg",1);
+            clubs[2] = new ClubEntity(3,"Borussia Moenchengladbach",1);
+            clubs[3] = new ClubEntity(4,"1. FC Kaiserslautern",2);
+
+            leagues[0] = new LeagueEntity(1, "1. Bundesliga", new DateTime(1963, 08, 24), "Karl-Heinz Körbel", 602);
+            leagues[1] = new LeagueEntity(1, "2. Bundesliga", new DateTime(1974, 02, 08), "Willi Landgraf", 508);
+            leagues[2] = new LeagueEntity(1, "3. Bundesliga", new DateTime(2008, 07, 25), "ens Truckenbrod", 209);
         }
 
         public void Start()
         {
-            ce.Name = "1. FC Union Berlin";
             logger.LogInformation("Program started");
-            logger.LogDebug("Club information: {club}", ce.ToString());
+            for(int i = 0; i < clubs.Length; i++)
+            {
+                logger.LogDebug("Club information: {club}", clubs[i].ToString());
+            }
+
+            for(int i = 0; i < leagues.Length; i++ )
+            {
+                logger.LogDebug("League information: {league}", leagues[i].ToString());
+            }
         }
 
         private static ILogger SetupLogging()
@@ -45,5 +65,3 @@ namespace ooconcepts
         }
     }
 }
-
-
