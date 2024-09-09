@@ -7,7 +7,6 @@ Console.WriteLine("How to use arrays in C#");
 Console.WriteLine("String arrays **********************************");
 string[] myStrings = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-Console.WriteLine("Array size " + myStrings.Length);
 Console.WriteLine("Using foreach on array");
 foreach (var s in myStrings) {
     Console.Write(s + " ");
@@ -42,7 +41,7 @@ Console.WriteLine("\nAssigning & accessing values");
 emptyArray[4] = "Hello World";
 string value = emptyArray[4];
 
-Console.WriteLine("Multi dimensional arrays **********************************");
+Console.WriteLine("Two dimensional arrays **********************************");
 int[,] twoDArray = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } };
 Console.WriteLine("2D Array size " + twoDArray.Length);
 for (int i = 0; i< twoDArray.GetLength(0); i++) 

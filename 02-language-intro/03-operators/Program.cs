@@ -13,13 +13,13 @@ input = Console.ReadLine();
 int a = Convert.ToInt32(input); // let's ignore that for the moment - see example 04
 Console.WriteLine("Your age is: {0}", a);
 
-string? name;
-Console.WriteLine("Please enter your name: ");
-name = Console.ReadLine();
-Console.WriteLine("Your name is: {0}", name);  
 
 Console.WriteLine(a+10);
 Console.WriteLine(a-10);
 Console.WriteLine(a/10);
-
 Console.WriteLine(10 + a/10);
+
+Console.WriteLine("++a  : {0}", ++a);
+Console.WriteLine("a  : {0}", a);
+Console.WriteLine("a++  : {0}", a++);
+Console.WriteLine("a  : {0}", a);
