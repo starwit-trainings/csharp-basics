@@ -192,5 +192,5 @@ Or use the run button in your IDE.
 ### Tasks
 * inspect code and check all comments used
 * add proper documentation comments to all methods
-* generate docfx as described [here](https://dotnet.github.io/docfx/)
+* We want to create a Documentation Website. Generate docfx as described [here](https://dotnet.github.io/docfx/).
 * replace all console outputs by log messages, choose an approriate log level - how do you decide?
