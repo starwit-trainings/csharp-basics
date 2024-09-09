@@ -38,7 +38,7 @@ namespace ooconcepts
             var serializer = new XmlSerializer(clubs.GetType());
             serializer.Serialize(stringwriter, clubs);
             string xml = stringwriter.ToString();
-            logger.LogInformation("Generated JSON {json}", xml);
+            logger.LogInformation("Generated XML: {xml}", xml);
 
             // deserialize
             

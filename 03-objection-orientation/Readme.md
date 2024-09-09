@@ -9,6 +9,10 @@ Modeling data can often be easier using graphic representations. Diagrams used i
 ### Classes and objects
 The fundamental concept of every object oriented language is the idea of classes and objects. A class is a description of data and behaviour (== methods). So it wraps functions and data into one structure. Once this is defined, one create as many instances of this class as are necessary. Given the example below, once you have defined which data and functions are necessary to describe a sport club, you can create an object of this class for every real world club, that you want to manage.
 
+In short, a class is:
+* a blueprint of an object
+* defines data (attributes/variables) and functionality (methods)
+
 ### Encapsulation
 * Information & methods regarding a topic are stored inside an object
 * Expose only those parts of code that are necessary
@@ -31,26 +35,27 @@ The fundamental concept of every object oriented language is the idea of classes
 * A set of classes can be packed into a library such, that many development projects, use the same data structures.
 
 ### Polmorphism
+* Inherit methods with the same signature, but different implementations
 * In inheritence hierachies classes can not only add, but also modify bevahiour. 
 * In the car example, each of the inheriting classes could its own function to model acceleration. So every class has the same functionality, it's implementation can be very different.
 
 ## On Modeling
 Now it is time, to look at a real word example. Let's imagine, we want to build an app, that manages sport events. The following picture shows an example of several classes and the idea of inheritance. The notation used here is called class diagram and is part of the [unified modeling language](https://en.wikipedia.org/wiki/Unified_Modeling_Language).
 
-![Modeling Example](/imgs/OOD-inheritance-simple.png)
+<img src="../imgs/OOD-inheritance-simple.png"  width="500" alt="Modeling Example">
 
 Core idea here is, that a football club __is a__ sports club and thus inherits all attributes. Same goes for sailing clubs or any other kind of sports club, on could think of. All of those will have a name, a founding date and a number of members.
 
 The next diagram shows a bunch of clases and their relations amongst each other. General idea is, that larger data structures can be broken into fitting entities like clubs, players,... and then connect them via relations. So a club for example has a number of players and is playing in a certain league.
 
-![Modeling Example](/imgs/OOD-relations-simple.png)
+<img src="../imgs/OOD-relations-simple.png"  width="580" alt="Modeling Example">
 
 # Examples
 For the following examples we will model data for a football league. Our main domain entities will be league, club, player and game. Leagues represents a football league like the first German football leauge (Bundesliga) and clubs are the football clubs, that play in their respective league. 
 
 The following picture shows a model subset from last subsection, that we are going to implement. It is focussing on football clubs and each of the items in this diagram will end up in a piece of code.
 
-![Implementation Example](/imgs/OOD02.png)
+<img src="../imgs/OOD02.png"  width="700" alt="Implementation Example">
 
 Every entity from the football application domain is represented by a class. As we will deal with many instances for every class e.g. there will 18 clubs for the first German football league. So we need a mechanism to tell those instances apart. For this a unique id is used and as this is necessary for all classes, attributes and logic needed are put in an AbstractEntity class from which all others will inherit.
 
@@ -67,7 +72,7 @@ Or use the run button in your IDE.
 
 ### Tasks
 * Run program
-* Create a class for Leagues, Games and Players
+* Create a class for League, Game and Player
 * Make sure all class definitions inherit from AbstracEntity
 * Create instances for every class and set fields with values of your choice
 * Override getObjectSize method in every class you wrote - think of an appropriate concept, to measure size of an object.
@@ -89,7 +94,7 @@ On the commandline use this to run program:
 * For every class create an array and put your instances into that array, note setting proper ids
 * Create a method that outputs all instances content in each array.
 * Why are arrays a very bad idea?
-* Id field in every class + reference allows you to implement relations from UML diagram - write a method, that takes a LeagueEntity + an array of ClubEntites and outputs all clubs playing in given league.
+* The id field in every class allows you to implement relations from UML diagram - write a method, that takes a LeagueEntity + an array of ClubEntites and outputs all clubs playing in given league.
 * Ids are a pretty complicated way, to do this - any idea, what else is possible?
 * Consider following code:
   ```C#
