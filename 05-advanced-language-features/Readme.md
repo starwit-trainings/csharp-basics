@@ -89,7 +89,7 @@ Or use the run button in your IDE.
 
 ### Tasks
 * Run program
-* Write a method for each of the other three CSV files and parse them into according lists aof C# objects. 
+* Write a method for each of the other three CSV files and parse them into according lists of C# objects. 
 * Bonus challenge: Parse data such, that relations are implemented by C# references/lists.
 
 ## Delegates
