@@ -157,6 +157,7 @@ var s = "Hello"
 
     `string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};`
     `int[,] coordinates = {{1, 2}, {2,3}};`
+    `double[] doubleNumbers = new double[5];`
 > more information can be find [here](https://www.w3schools.com/cs/cs_arrays_multi.php)
 
 ---
@@ -171,4 +172,117 @@ var s = "Hello"
 
 > [source](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/)
 
+---
+# Language Introduction
+## Methods, Parameters and structuring your code
+
+* methods 
+    * are code block which only runs when they are called
+    * use parameters to pass data into methods
+    * can have a return value or void
+    * are declared in a class or struct
+* use methods in order to reuse code
+* are also called functions
+
+
+---
+# Language Introduction
+## Methods, Parameters and structuring your code
+
+```csharp
+class SimpleMathExtension
+{
+    public int DivideTwoNumbers(int number1, int number2)
+    {
+        return number1 / number2;
+    }
+}
+```
+
+```csharp
+class Class_Name
+{
+    <access modifier> <return type> Method_Name(Parameters)
+    {
+        //method statements
+        return Return_Value;
+    }
+}
+```
+---
+# Language Introduction
+## Main Method
+Entry method which is called after start of the app
+```csharp
+class SimpleMathExtension
+{
+    static void Main(string[] args)
+    {
+      int result = DivideTwoNumbers(9, 3);
+      Console.WriteLine(result);
+    }
+    
+    public int DivideTwoNumbers(int number1, int number2)
+    {
+        return number1 / number2;
+    }
+}
+```
+
+---
+# Language Introduction
+## Method Overloading
+
+```csharp
+/**
+* Methods has the same name but different parameters
+**/
+class MethodOverloadExample
+{
+    public int addNumbers(int number1, int number2)
+    {
+        return number1 + number2;
+    }
+
+    public int addNumbers(int number1, int number2, int number3)
+    {
+        return number1 + number2 + number3;
+    }
+
+    public double addNumbers(double number1, double number2)
+    {
+        return number1 + number2;
+    }
+}
+```
+
+---
+# Language Introduction
+## Local Scope Variables
+
+```csharp
+public int DivideTwoNumbers(int number1, int number2)
+{
+    //local scoped variable - only available in method
+    int returnValue = number1 / number2; 
+    return returnValue;
+}
+```
+## Optional Parameters
+```csharp
+//number2 is an optional paramenter
+public int DivideTwoNumbers(int number1, int number2 = 10)
+{
+    return number1 / number2; 
+}
+```
+
+---
+## Documentation
+
+DocFx installation:
+
+```console
+dotnet tool update -g docfx
+```
 

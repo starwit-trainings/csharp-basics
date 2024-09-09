@@ -142,8 +142,9 @@ Or use the run button in your IDE.
 
 ### Tasks
 * Run program
-* create a string array that contains 5 numbers like "10.3" and run through it, parse every value into a double value and add this to a new double array. If you want to generate random numbers, use [this method](https://learn.microsoft.com/en-us/dotnet/api/system.random?view=net-8.0)
-* look at the 2-dimensional array - write code, that creates a transposed version of this array.
+* create a string array that contains 5 numbers like "10.3" and run through it, parse every value into a double value and add this to a new double array. 
+    * **Bonus Challenge**: Generate an array with random numbers. Use [this method](https://learn.microsoft.com/en-us/dotnet/api/system.random?view=net-8.0)
+* look at the 2-dimensional array - write code, that creates a transposed version of this array (001,010,100).
 * Write code, that adds 1 to each element of the original 2D array
 * Enhance that code, such that new values are added to a new 2D array
 * Now take the two arrays and write code, that compares each element of both arrays. Create output if there are any unequal elements. 
@@ -168,7 +169,7 @@ Or use the run button in your IDE.
     dotnet run param1 param2
     ```
 * Change function AFunctionWithParams that its outputs depends on param. Decide how many cases you want to support and if you want to use switch/case or if/else.
-* Change function AFunctionWithReturnValue such that it 
+* Change function AFunctionWithReturnValue such that it returns the output already written in AFunctionWithParams
 * Write a function that takes a string array as parameter and returns a concatenated string of all array elements.
 * call that function and use result of ReadData method as input
 * write a function, that splits every line of ReadData output into a string array (see last example)
@@ -191,5 +192,5 @@ Or use the run button in your IDE.
 ### Tasks
 * inspect code and check all comments used
 * add proper documentation comments to all methods
-* TODO generate [docfx](https://www.codeproject.com/Articles/5259812/Use-DocFx-to-Generate-a-Documentation-Web-Site-and)
+* generate docfx as described [here](https://dotnet.github.io/docfx/)
 * replace all console outputs by log messages, choose an approriate log level - how do you decide?

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * This example shows the role and usage of arrays in C#.
  */
 
@@ -41,7 +41,7 @@ Console.WriteLine("\nAssigning & accessing values");
 emptyArray[4] = "Hello World";
 string value = emptyArray[4];
 
-Console.WriteLine("Multi dimensional arrays **********************************");
+Console.WriteLine("Two dimensional arrays **********************************");
 int[,] twoDArray = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } };
 Console.WriteLine("2D Array size " + twoDArray.Length);
 for (int i = 0; i< twoDArray.GetLength(0); i++) 
