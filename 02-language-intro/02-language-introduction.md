@@ -280,9 +280,15 @@ public int DivideTwoNumbers(int number1, int number2 = 10)
 ---
 ## Documentation
 
-DocFx installation:
+* use **Logger** and not Console.WriteLine() to be able to redirect output e.g. in files by configuration. See [here](https://raygun.com/blog/c-sharp-logging-best-practices/) for detailed information
 
-```console
-dotnet tool update -g docfx
-```
+* use DocFx to provide api documentation for your programm
+  ```bat
+  Rem installation
+  dotnet tool update -g docfx
+  Rem create docfx configuration
+  docfx init
+  Rem start webserver
+  docfx docfx.json --serve
+  ```
 
