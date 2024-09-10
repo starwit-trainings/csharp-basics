@@ -8,4 +8,9 @@ C# and the .Net runtime can be used to build a large variety of software types. 
 
 ## ASP.Net - Web Applications
 
+see
+* https://learn.microsoft.com/de-de/aspnet/core/getting-started/?view=aspnetcore-8.0
+* https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio
+
+
 ### Tasks
