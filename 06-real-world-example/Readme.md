@@ -8,11 +8,24 @@ C# and the .Net runtime can be used to build a large variety of software types. 
 
 ## ASP.Net - Web Applications
 
-see
+see:
 * https://learn.microsoft.com/de-de/aspnet/core/getting-started/?view=aspnetcore-8.0
 * https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio
 * https://jasonwatmore.com/post/2022/09/05/net-6-connect-to-sqlite-database-with-entity-framework-core
 * https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/model?view=aspnetcore-8.0&tabs=visual-studio-code
+
+
+## Maui Apps
+
+for maui get dotnet 8.0.4xx:
+* download dotnet from here: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+* extract package:
+    ```sh
+    mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-8.0.401-linux-x64.tar.gz -C $HOME/dotnet
+    export DOTNET_ROOT=$HOME/dotnet
+    export PATH=$PATH:$HOME/dotnet
+    ```
+* see tutorial here: https://techcommunity.microsoft.com/t5/educator-developer-blog/net-maui-on-linux-with-visual-studio-code/ba-p/3982195
 
 
 ### Tasks
