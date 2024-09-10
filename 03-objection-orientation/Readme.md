@@ -142,3 +142,4 @@ On the commandline use this to run program:
 * Write a function, that takes a string as input and searches for all clubs with a name, starting with the input string.
 * Write a function, that takes a string as input and searches for all clubs with a name, containg the input string.
 * Look into the [sort documentation](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.sort?view=net-8.0) and try to sort one of the lists created in this excercise.
+* Bonus challenge: Add [IComparable](https://learn.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-8.0&redirectedfrom=MSDN) interface to AbstractEntity and implement Compare function in every entity class.

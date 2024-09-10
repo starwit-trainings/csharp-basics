@@ -76,13 +76,16 @@ a:hover {
 ---
 # Agenda
 
-* Language Introduction - Concepts, Structures, Data, Parameter
-    * building blocks
-    * built-in types
-    * C# Operator
-* First real example 
-* Types of .NET applications 
-* Concept Object Orientated Programming 
+* Variables, Data Types & Constants
+* Control Flow
+  * code block
+  * condition
+  * loops
+  * switch
+* Arrays
+* Operators
+* Methods
+* Documentation
 
 ---
 # Language Introduction
@@ -98,7 +101,7 @@ a:hover {
 
 ---
 # Language Introduction
-## Data Types
+## Variables - Data Types
 Define 
 * Size and location in memory
 * Data range
@@ -278,6 +281,7 @@ public int DivideTwoNumbers(int number1, int number2 = 10)
 ```
 
 ---
+# Language Introduction
 ## Documentation
 
 * use **Logger** and not Console.WriteLine() to be able to redirect output e.g. in files by configuration. See [here](https://raygun.com/blog/c-sharp-logging-best-practices/) for detailed information
