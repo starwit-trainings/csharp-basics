@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exceptions", "exceptions\exceptions.csproj", "{59EB91AC-5C7C-4C4C-9E12-1374D7020E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "files", "files\files.csproj", "{5F9ABC5C-F2AA-45EC-A07C-51B4A242652A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inifiles", "inifiles\inifiles.csproj", "{0342EAB4-9AF4-467B-BDFC-6B636ADC2AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csvfiles", "csvfiles\csvfiles.csproj", "{2B1E1AC2-778C-4F05-8A90-F92FFF927A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unittests", "unittests", "{7C090170-AA60-4C91-9DB1-6B85F5769E9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "footballmanager-unittests", "footballmanager-unittests", "{CB1FC072-BEBB-4113-BB32-5FC69F4A493A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballService", "unittests\footballmanager-unittests\FootballService\FootballService.csproj", "{CBBF3248-AA47-4AD5-B765-D2C303C9EB95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballService.Tests", "unittests\footballmanager-unittests\FootballService.Tests\FootballService.Tests.csproj", "{867FD0A1-44C5-4B7E-818D-4B65C1B1A277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59EB91AC-5C7C-4C4C-9E12-1374D7020E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EB91AC-5C7C-4C4C-9E12-1374D7020E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EB91AC-5C7C-4C4C-9E12-1374D7020E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EB91AC-5C7C-4C4C-9E12-1374D7020E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9ABC5C-F2AA-45EC-A07C-51B4A242652A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9ABC5C-F2AA-45EC-A07C-51B4A242652A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9ABC5C-F2AA-45EC-A07C-51B4A242652A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9ABC5C-F2AA-45EC-A07C-51B4A242652A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0342EAB4-9AF4-467B-BDFC-6B636ADC2AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0342EAB4-9AF4-467B-BDFC-6B636ADC2AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0342EAB4-9AF4-467B-BDFC-6B636ADC2AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0342EAB4-9AF4-467B-BDFC-6B636ADC2AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1E1AC2-778C-4F05-8A90-F92FFF927A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1E1AC2-778C-4F05-8A90-F92FFF927A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1E1AC2-778C-4F05-8A90-F92FFF927A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1E1AC2-778C-4F05-8A90-F92FFF927A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBF3248-AA47-4AD5-B765-D2C303C9EB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBF3248-AA47-4AD5-B765-D2C303C9EB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBF3248-AA47-4AD5-B765-D2C303C9EB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBF3248-AA47-4AD5-B765-D2C303C9EB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867FD0A1-44C5-4B7E-818D-4B65C1B1A277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867FD0A1-44C5-4B7E-818D-4B65C1B1A277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867FD0A1-44C5-4B7E-818D-4B65C1B1A277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867FD0A1-44C5-4B7E-818D-4B65C1B1A277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB1FC072-BEBB-4113-BB32-5FC69F4A493A} = {7C090170-AA60-4C91-9DB1-6B85F5769E9F}
+		{CBBF3248-AA47-4AD5-B765-D2C303C9EB95} = {CB1FC072-BEBB-4113-BB32-5FC69F4A493A}
+		{867FD0A1-44C5-4B7E-818D-4B65C1B1A277} = {CB1FC072-BEBB-4113-BB32-5FC69F4A493A}
+	EndGlobalSection
+EndGlobal
