@@ -18,8 +18,22 @@ With Windows Forms' serious shortcomings in layout and supporting high resolutio
 
 ## ASP.Net - Web Applications
 
+### Create a simple WebApp
+You can create a webapp easily by using `dotnet new webapp` command. That was already done for teh code in directory FootballManagerWeb. You can start the WebApp as usual with `dotnet run` and you will find the url to access the app in browser in the console output. You can find a [Quickstart](https://learn.microsoft.com/de-de/aspnet/core/getting-started/?view=aspnetcore-8.0) and more a [detailed description](https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio-code) on microsoft pages.
+
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd FootballManagerWeb
+    dotnet run
+```
+Or use the run button in your IDE.
+
 ### Tasks
-* Run program
+* Run program and open it in Browser
+* Go to directory `Pages` and inspect the existing code. Go to [tutorial](https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio-code) and find out, what the different files are for
+* change somthing in file `Pages\Index.cshtml` and see result in browser
+
 * Copy entity namespace from earlier projects, load data from CSV files, create button for each data list and display them.
 
 see:
