@@ -4,9 +4,23 @@ C# and the .Net runtime can be used to build a large variety of software types. 
 # Examples
 
 ## Windows Forms - Football Manager
+
 ### Tasks
+* Run program
+* Copy entity namespace from earlier projects, load data from CSV files, create button for each data list and display them.
+
+## Windows Presentation Foundation (WPF)
+With Windows Forms' serious shortcomings in layout and supporting high resolution displays WPF was developed. It is a combination of XML and C# to separate layout/style from application logic. If you have ever build web application, that may sound familiar. If you want to know more, [Wikipedia](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) is a good starting point.
+
+### Tasks
+* Run program
+* Copy entity namespace from earlier projects, load data from CSV files, create button for each data list and display them.
 
 ## ASP.Net - Web Applications
+
+### Tasks
+* Run program
+* Copy entity namespace from earlier projects, load data from CSV files, create button for each data list and display them.
 
 see:
 * https://learn.microsoft.com/de-de/aspnet/core/getting-started/?view=aspnetcore-8.0
@@ -27,5 +41,3 @@ for maui get dotnet 8.0.4xx:
     ```
 * see tutorial here: https://techcommunity.microsoft.com/t5/educator-developer-blog/net-maui-on-linux-with-visual-studio-code/ba-p/3982195
 
-
-### Tasks
