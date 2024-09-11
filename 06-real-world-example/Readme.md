@@ -34,8 +34,8 @@ Or use the run button in your IDE.
 ### Tasks
 * Run program and open it in Browser
 * Go to directory `Pages` and inspect the existing code. Go to [tutorial](https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio-code) and find out, what the different files are for
-* change somthing in file `Pages\Index.cshtml` and see result in browser
-* In the top-menu of the app ou can see menu item `Clubs`. Here you can write Clubs to a sqllite in-memory database. See [this tutorial](https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/model?view=aspnetcore-8.0&tabs=visual-studio-code) and find out, how Clubs are written to database.
+* change something in file `Pages\Index.cshtml` and see result in browser
+* In the top-menu of the app you can see menu item `Clubs`. Here you can write Clubs to sqllite - an in-memory database. See [this tutorial](https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/model?view=aspnetcore-8.0&tabs=visual-studio-code) and find out, how Clubs are written to database.
 * add leage to the app and write it to database similiar to clubs.
 
 For informations about sqllite, see [here](https://jasonwatmore.com/post/2022/09/05/net-6-connect-to-sqlite-database-with-entity-framework-core)
