@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-ooconcepts", "01-ooconcepts\01-ooconcepts.csproj", "{362A5D9C-9D24-4B7F-9F91-A1408406743A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-relations", "02-relations\02-relations.csproj", "{550DFDC2-8795-48E4-BD56-E84768E2A114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-lists", "03-lists\03-lists.csproj", "{6ADEFC97-7F06-482B-A1D3-531E8C8C43A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{362A5D9C-9D24-4B7F-9F91-A1408406743A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362A5D9C-9D24-4B7F-9F91-A1408406743A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362A5D9C-9D24-4B7F-9F91-A1408406743A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362A5D9C-9D24-4B7F-9F91-A1408406743A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550DFDC2-8795-48E4-BD56-E84768E2A114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550DFDC2-8795-48E4-BD56-E84768E2A114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550DFDC2-8795-48E4-BD56-E84768E2A114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550DFDC2-8795-48E4-BD56-E84768E2A114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADEFC97-7F06-482B-A1D3-531E8C8C43A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADEFC97-7F06-482B-A1D3-531E8C8C43A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADEFC97-7F06-482B-A1D3-531E8C8C43A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADEFC97-7F06-482B-A1D3-531E8C8C43A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
