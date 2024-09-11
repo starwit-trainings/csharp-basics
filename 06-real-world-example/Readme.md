@@ -41,3 +41,4 @@ for maui get dotnet 8.0.4xx:
     ```
 * see tutorial here: https://techcommunity.microsoft.com/t5/educator-developer-blog/net-maui-on-linux-with-visual-studio-code/ba-p/3982195
 
+
