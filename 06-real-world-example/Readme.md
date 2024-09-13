@@ -18,6 +18,38 @@ With Windows Forms' serious shortcomings in layout and supporting high resolutio
 
 ## ASP.Net - Web Applications
 
+### Create a simple WebApp
+You can create a webapp easily by using `dotnet new webapp` command. That was already done for the code in the directory `FootballManagerWeb`. You can start the WebApp as usual with `dotnet run` and you will find the url to access the app via browser in the console output. 
+
+You can find a [Quickstart](https://learn.microsoft.com/de-de/aspnet/core/getting-started/?view=aspnetcore-8.0) and more a [detailed description](https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio-code) on microsoft pages.
+
+### How to execute
+On the commandline use this to run program:
+```shell
+    cd FootballManagerWeb
+    dotnet run
+```
+Or use the run button in your IDE.
+
 ### Tasks
-* Run program
-* Copy entity namespace from earlier projects, load data from CSV files, create button for each data list and display them.
+* Run program and open it in Browser
+* Go to directory `Pages` and inspect the existing code. Go to [tutorial](https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio-code) and find out, what the different files are for
+* change something in file `Pages\Index.cshtml` and see result in browser
+* In the top-menu of the app you can see menu item `Clubs`. Here you can write Clubs to sqllite - an in-memory database. See [this tutorial](https://learn.microsoft.com/de-de/aspnet/core/tutorials/razor-pages/model?view=aspnetcore-8.0&tabs=visual-studio-code) and find out, how Clubs are written to database.
+* add leage to the app and write it to database similiar to clubs.
+
+For informations about sqllite, see [here](https://jasonwatmore.com/post/2022/09/05/net-6-connect-to-sqlite-database-with-entity-framework-core)
+
+## Maui Apps
+
+for maui get dotnet 8.0.4xx:
+* download dotnet from here: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+* extract package:
+    ```sh
+    mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-8.0.401-linux-x64.tar.gz -C $HOME/dotnet
+    export DOTNET_ROOT=$HOME/dotnet
+    export PATH=$PATH:$HOME/dotnet
+    ```
+* see tutorial here: https://techcommunity.microsoft.com/t5/educator-developer-blog/net-maui-on-linux-with-visual-studio-code/ba-p/3982195
+
+
