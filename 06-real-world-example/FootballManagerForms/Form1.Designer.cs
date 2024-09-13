@@ -87,13 +87,13 @@
             toolStripMenuItem2.Name = "toolStripMenuItem2";
             toolStripMenuItem2.Size = new Size(60, 29);
             toolStripMenuItem2.Text = "Info";
-            toolStripMenuItem2.Click += toolStripMenuItem2_Click;
             // 
             // infoToolStripMenuItem
             // 
             infoToolStripMenuItem.Name = "infoToolStripMenuItem";
             infoToolStripMenuItem.Size = new Size(146, 34);
             infoToolStripMenuItem.Text = "Info";
+            infoToolStripMenuItem.Click += infoToolStripMenuItem_Click;
             // 
             // clubsGridView
             // 
@@ -113,7 +113,6 @@
             label1.Size = new Size(300, 48);
             label1.TabIndex = 3;
             label1.Text = "Football Manager";
-
             // 
             // Form1
             // 
@@ -126,7 +125,8 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
-            Text = "Form1";
+            Text = "Football Manager";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)clubsGridView).EndInit();

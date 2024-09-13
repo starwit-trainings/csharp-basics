@@ -37,7 +37,13 @@ namespace FootballManagerForms
         }
 
         // show info box
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        private void infoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This Window contains versioning information", "Release Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        // stuff you want to do on startup
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

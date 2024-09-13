@@ -4,10 +4,23 @@ C# and the .Net runtime can be used to build a large variety of software types. 
 # Examples
 
 ## Windows Forms - Football Manager
+Windows Forms is a framework with which you can build applications for Microsoft Windows. It is already quite dated, but still widely used. So this section contains an example for how to build the Football Manager example with Windows Forms. Needless to say - this will not work on Linux.
+
+Example already loads the data for ClubEntities and display them in a data grid view.
+
+### How to run
+You can run Application from Visual Studio by opening Form1.cs and hit run button.
+<img src="../imgs/RunWindowsForms.png"  width="500" alt="Running Windows Form App">
+
+As an alternative app can also run by double clicking on resulting binary.
+<img src="../imgs/RunWIndowsFormsFromExplorer.png"  width="300" alt="Running from Explorer">
 
 ### Tasks
 * Run program
-* Copy entity namespace from earlier projects, load data from CSV files, create button for each data list and display them.
+* Find binary in explorer
+* Load the three other CSV files and show their content in a data grid.
+* Hide dataGridView until data is loaded
+* Bonus Challenge: Use a [file selection dialog](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/controls/how-to-open-files-using-the-openfiledialog-component?view=netframeworkdesktop-4.8) for selecting CVS file.
 
 ## Windows Presentation Foundation (WPF)
 With Windows Forms' serious shortcomings in layout and supporting high resolution displays WPF was developed. It is a combination of XML and C# to separate layout/style from application logic. If you have ever build web application, that may sound familiar. If you want to know more, [Wikipedia](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation) is a good starting point.
