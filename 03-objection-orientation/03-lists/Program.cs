@@ -2,7 +2,7 @@
 using entities;
 
 
-namespace exceptions
+namespace lists
 {
     public class Program
     {

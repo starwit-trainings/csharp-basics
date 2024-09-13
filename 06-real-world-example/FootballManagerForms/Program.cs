@@ -1,4 +1,4 @@
-namespace FootballManager
+namespace FootballManagerForms
 {
     internal static class Program
     {
