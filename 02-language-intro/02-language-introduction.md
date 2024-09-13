@@ -153,6 +153,14 @@ var s = "Hello"
 > more information and code examples can be find [here](https://www.w3schools.com/cs/cs_conditions.php)
 
 ---
+# Wissensquiz
+
+* Nenne Datentypen in C#
+* Was passiert, wenn Zahlen den Wertebereich ihres Datentypen übersteigen?
+* Du ließt logs von einem Server in London, was musst du bei der Betrachtung der Zeitstempel beachten?
+* Welche Möglichkeiten gibt es, in C# Schleifen zu programmieren?
+
+---
 # Language Introduction
 ## Arrays
 
@@ -258,7 +266,6 @@ class MethodOverloadExample
     }
 }
 ```
-
 ---
 # Language Introduction
 ## Local Scope Variables
@@ -279,6 +286,13 @@ public int DivideTwoNumbers(int number1, int number2 = 10)
     return number1 / number2; 
 }
 ```
+---
+# Wissensquiz
+
+* Nenne arithmetische Operatoren. Welche Arten von Operatoren gibt es noch?
+* Welche Zugriffsmodifizierer für Methoden sind dir bekannt?
+* Wie heißt die Methode, die beim starten eines Projektes ausgeführt wird?
+* Was sind lokale Variablen?
 
 ---
 # Language Introduction
@@ -295,4 +309,10 @@ public int DivideTwoNumbers(int number1, int number2 = 10)
   Rem start webserver
   docfx docfx.json --serve
   ```
+---
+# Wissensquiz
 
+* Für wen schreibst du deinen Code?
+* Wann und was würdest du dokumentieren?
+* Welche log-Level gibt es?
+* Welchen Vorteil haben Logger im Gegensatz zu direkten Consolenausgaben?
