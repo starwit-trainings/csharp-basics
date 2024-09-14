@@ -21,7 +21,7 @@ public class IniExample
         logger = SetupLogging();
         logger.LogInformation("Started Program");
         string iniPath = "test.ini";
-        PhysicalFileProvider fProvider = new PhysicalFileProvider(Path.GetFullPath("."));
+        PhysicalFileProvider fProvider = new PhysicalFileProvider(Path.GetFullPath("..\\..\\..\\"));
         IniConfigurationSource iniConfig = new IniConfigurationSource { Path = iniPath, Optional = true, FileProvider = fProvider };
         IniConfigurationProvider iniProvider = new IniConfigurationProvider(iniConfig);
         iniProvider.Load();

@@ -55,10 +55,12 @@ On the commandline use this to run program:
 Or use the run button in your IDE.
 
 ### Tasks
-* Run program
+* Adapt path and run program
 * Add methods to read from the three other CSV files
-* Modify write method with checking, if file is empty before writing.
+* Modify write method with checking, if file [is empty](https://learn.microsoft.com/en-us/dotnet/api/system.io.directory.getfiles?view=net-8.0) before writing
+* Write a function, that tries to find all CSV files in a folder.
 * Bonus challenge: write a method, that parse a line from the club csv and creates a ClubEntity each.
+* Wouldn't it be great to configure base search path? See next section
 
 ## Using INI files
 Though a bit dated, ini files are still in use. Here is an example, how to read values from an ini file.
@@ -75,6 +77,7 @@ Or use the run button in your IDE.
 * Run program
 * output all other values from ini file
 * create an additional section with at least two config items and output them
+* Create a config key _search-folder_ and list all files in configured folder.
 
 ## Dealing with CSV files
 Storing data in comma separated value files is a common way to exchange data. This example will show you, how to parse CSV files and turn their content into C# objects.

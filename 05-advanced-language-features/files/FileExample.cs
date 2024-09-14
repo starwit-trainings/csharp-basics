@@ -11,11 +11,12 @@ public class FileExample
 
     public static void Main(string[] args)
     {
+        Console.WriteLine("Program started");
         var f = new FileExample();
         f.LoadDataFromFile();
         f.WriteToFile();
-    }    
-
+        f.DirectoryAndFiles();
+    }
 
     public FileExample()
     {
@@ -25,8 +26,10 @@ public class FileExample
 
     public void LoadDataFromFile()
     {
-        Console.WriteLine("Program started");
-        string path = @"data" + Path.DirectorySeparatorChar + "bundesliga_clubs.csv";
+        // figure out, where am I running
+        string directory = AppDomain.CurrentDomain.BaseDirectory;
+        logger.LogInformation("my execution directory {dir}", directory);
+        string path = "..\\..\\..\\" + "data" + Path.DirectorySeparatorChar + "bundesliga_clubs.csv";
 
         try
         {
@@ -48,6 +51,15 @@ public class FileExample
         StreamWriter outputFile = new StreamWriter(outputPath);
         outputFile.Write(content);
         outputFile.Flush();
+    }
+
+    private void DirectoryAndFiles()
+    {
+        string[] files = Directory.GetFiles(".");
+        foreach (var fileEntry in files)
+        {
+            logger.LogInformation("{}", fileEntry);
+        }
     }
 
     private static ILogger SetupLogging()
