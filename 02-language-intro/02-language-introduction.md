@@ -311,8 +311,18 @@ public int DivideTwoNumbers(int number1, int number2 = 10)
   ```
 ---
 # Wissensquiz
+## Teil I
+* Was bedeutet kompilieren?
+* Was bedeutet es, wenn eine Programmiersprache als _managed_ bezeichnet wird?
+* Warum lässt sich mit C#/.Net geschriebener Code einfacher auf andere Systeme (Mikroprozessoren/Betriebssysteme übertragen)?
+* Was ist der Unterschied zwischen Debuggen und Ausführen?
 
+---
+## Teil II
 * Für wen schreibst du deinen Code?
+* Nenne drei grundlegende Datentypen in C#? Gibt es Typen die sich stark ähneln?
+* Mit welchen Strukturen in C# kann ein Programm Entscheidungen treffen?
+* Aus welchen drei Elementen besteht die Signatur einer Methode?
 * Wann und was würdest du dokumentieren?
 * Welche log-Level gibt es?
 * Welchen Vorteil haben Logger im Gegensatz zu direkten Consolenausgaben?
