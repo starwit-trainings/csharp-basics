@@ -82,6 +82,13 @@ a:hover {
 * Task: Hello World!
 
 ---
+## Motivation
+
+* Nenne drei Unterschiede zwischen einen Programm und einen Betriebssystem
+* Wo ist überall Informatik drin? Nennt ein paar Beispiele
+* Welche Programmiersprachen kennt ihr?
+
+---
 # 1. Introduction to C# and the .NET runtime
 
 ## .Net
@@ -245,5 +252,5 @@ add extension
 * Aus welchen Dateien besteht ein C#-Projekt?
 * Wofür benötigt man einen Package Manager?
 * Was bedeutet es, wenn eine Programmiersprache als _managed_ bezeichnet wird?
-* Warum lässt sich mit C#/.Net geschriebener Code einfacher auf andere Systeme (Mikroprozessoren/Betriebssysteme übertragen)?
+* Warum lässt sich mit C#/.Net geschriebener Code einfacher auf andere Systeme (Mikroprozessoren/Betriebssysteme) übertragen?
 * Was ist der Unterschied zwischen Debuggen und Ausführen?
