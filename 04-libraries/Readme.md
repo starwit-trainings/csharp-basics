@@ -60,6 +60,6 @@ This example is not yet existing - we have to create it! Goal is a program, that
 ### How to execute
 To create a new project on the command line, use the following command
 ```shell
-    dotnet new console - projectname
+    dotnet new console -n projectname
 ```
 As an alternative you can use your IDE.
