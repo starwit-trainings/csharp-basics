@@ -241,6 +241,9 @@ add extension
 # Wissenscheck
 
 * Wofür dient die .Net-Plattform?
-* Was ist ein Compiler?
+* Was ist ein Compiler bzw. was bedeutet kompilieren?
 * Aus welchen Dateien besteht ein C#-Projekt?
 * Wofür benötigt man einen Package Manager?
+* Was bedeutet es, wenn eine Programmiersprache als _managed_ bezeichnet wird?
+* Warum lässt sich mit C#/.Net geschriebener Code einfacher auf andere Systeme (Mikroprozessoren/Betriebssysteme übertragen)?
+* Was ist der Unterschied zwischen Debuggen und Ausführen?
