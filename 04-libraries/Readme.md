@@ -52,3 +52,14 @@ Or use the run button in your IDE.
 * Look at the deserialized club array. Output it's content.
 * Take serialized output from the three other classes and deserialize them like the club example. Output content of created arrays.
 * Serialize/Deserialize a single instance of ClubEntity
+
+## 03 Creating your own project
+
+This example is not yet existing - we have to create it! Goal is a program, that reads some data from a JSON string and outputs it as XML. So you have to create a new project, that uses libraries from the last two examples.
+
+### How to execute
+To create a new project on the command line, use the following command
+```shell
+    dotnet new console - projectname
+```
+As an alternative you can use your IDE.
