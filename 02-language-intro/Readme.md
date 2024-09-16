@@ -46,17 +46,19 @@ Or use the run button in your IDE.
 
 ### Tasks
 * Run program with various inputs
-* extend program
-    * if statement: 
-        * let the user input a number (hint: you have to use `Convert.ToInt32(..)` to get the user input as int)
+* Making decisions with pre-defined values is boring, let's extend program
+    * At the beginning, let the user input a number (hint: you have to use `Convert.ToInt32(..)` to get the user input as int)
+    * Use that number for example if/for/while/switch
     * run a for loop as many times as user's age
     * run a while loop as many times as user's age
     * comment politely on user's age
     * check if user's name is in a list of names (choose 3) and give a special output for your choosen names and a generic output for any other name. Implement this task with a switch block
-    * C# also offers an [else-if construct](https://www.w3schools.com/cs/cs_conditions_elseif.php). Implement last task with else-if. Which version do like better and why?
+    * C# also offers an [else-if construct](https://www.w3schools.com/cs/cs_conditions_elseif.php). Implement last task with else-if. Which version do you like better and why?
 * in loops sometimes, execution needs to be skipped or stopped. C# offers [break/continue](https://www.w3schools.com/cs/cs_break.php) statement for this task. 
     * Write a for loop that runs till 100 and breaks, if entered age is reached.
     * Write a while loop that skips when reaching entered age
+
+* Bonus Challenge: Let's build a guess a number program. Define a number and let a user guess this number until, the correct one is entered. On every attempt, user shall get feedback, if choosen number is larger or smaller than the correct number.
 
 ## 03 - Operators
 Calculating results is another important building block, to write software. How to work with operators is thus the topic of this example.
