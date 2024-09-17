@@ -130,6 +130,7 @@ Or use the run button in your IDE.
     ```
     * Observe time zones and try to extract more info from each timezone, see [docs](https://learn.microsoft.com/en-us/dotnet/api/system.timezoneinfo?view=net-8.0)
     * __Bonus Challenge__ use String manipulation methods to extract a numeric value for the time distance to UTC for each timezone.
+* We need a match day planner, beginning from a start date we need for n weeks dates for Friday/Saturday/Sunday. Output a list for all match days
 
 ## 06 - Arrays
 Storing more than one value is very helpful for many tasks. This section introduces the most basic datastructure in C# that lets you work with multiple values. Arrays can store all sorts of data and are used everywhere. As they are useful and omnipresent, check [documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/arrays) for more info.
