@@ -1,6 +1,6 @@
 # Beispiel Trainermanagement
 
-## Bechreibung
+## Beschreibung
 
 Kurse, Trainer und Teinehmer werden in Excel-Dateien verwaltet. Nun soll ein kleines Hilfsprogramm erstellt werden, welche aus den Excel-Dateien wichtige Informationen herausfiltern soll. Diese Excel-Dateien sollen als CSV-Dateien in eine eigelesen werden.
 
