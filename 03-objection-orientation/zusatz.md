@@ -6,20 +6,20 @@
 
 **Die Liste der Teinehmer hat folgendes Format:**
 
+```
 Name des Teilnehmers, Kurs
 Max Mustermann, C# 1
 Manuela Musterfrau, C# 1
+```
 
 **Die Liste der Kurse hat folgendes Format**
 
+```
 Kurs, Name des Trainers, Tage
-
 C# 1, Anett Hübner, 16.9.2024 19.9.2024 20.9.2024
-
 C# 2, Markus Zarbock, 16.9.2024 19.9.2024 20.9.2024
-
 C# 3, Anett Hübner, 17.9.2024 18.9.2024
-
+```
 
 Unser Trainings-Manager soll diese Dateien einlegen und in der Lage sein, folgende Antworten auszugeben:
 
