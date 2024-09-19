@@ -2,15 +2,15 @@
 
 ## Beschreibung
 
-Kurse, Trainer und Teinehmer werden in Excel-Dateien verwaltet. Nun soll ein kleines Hilfsprogramm erstellt werden, welche aus den Excel-Dateien wichtige Informationen herausfiltern soll. Diese Excel-Dateien sollen als CSV-Dateien in eine eigelesen werden.
+**Kurse, Trainer und Teinehmer** werden in Excel-Dateien verwaltet. Nun soll ein kleines Hilfsprogramm erstellt werden, welche aus den Excel-Dateien wichtige Informationen herausfiltern soll. Diese Excel-Dateien sollen als CSV-Dateien in eine eigelesen werden.
 
-Die Liste der Teinehmer hat folgendes Format:
+**Die Liste der Teinehmer hat folgendes Format:**
 
 Name des Teilnehmers, Kurs
 Max Mustermann, C# 1
 Manuela Musterfrau, C# 1
 
-Die Liste der Kurse hat folgendes Format
+**Die Liste der Kurse hat folgendes Format**
 
 Kurs, Name des Trainers, Tage
 C# 1, Anett Hübner, 16.9.2024 19.9.2024 20.9.2024
