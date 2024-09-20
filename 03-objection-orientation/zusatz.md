@@ -23,7 +23,7 @@ C# 3, Anett Hübner, 17.9.2024 18.9.2024
 
 Unser Trainings-Manager soll diese Dateien einlegen und in der Lage sein, folgende Antworten auszugeben:
 
-* gib mir an, in welchem Kurs ein bestimmter Teinehmer (Konsoleneingabe) momentan ist. Verwende zum herausfinden des Kurses, den Namen des Teilnehmers
+* gib mir an, in welchem Kurs ein bestimmter Teilnehmer (Konsoleneingabe) momentan ist. Verwende zum herausfinden des Kurses, den Namen des Teilnehmers
 * gib mir an, welche Kurse grad stattfinden. Gib mir zu den grad stattfindenen Kursen auch die Teilnehmer aus.
 * gib mir an, welche Kurse an einem bestimmten Tag (Konsoleneingabe laufen). Der Nutzer soll bei falscher Datumseingabe eine Fehlermeldung bekommen und darauf hingewiesen werden, in welchem Format das Datum eingegeben werden soll.
 
