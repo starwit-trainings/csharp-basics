@@ -43,17 +43,16 @@ Bonus: gestaltet die Zahlenauswahl so, dass es einfach ist, weitere Auswahlmögl
 
 Hinweis zu Einlesen einer Datei:
 ```
-            StreamReader sr = new StreamReader("C:\\Users\\anett\\git\\csharp-basics\\teilnehmer.csv");
-            //Read the first line of text
-            string line = sr.ReadLine();
-            //Continue to read until you reach end of file
-            while (line != null)
-            {
-                line = sr.ReadLine();
-                //write the line to console window
-                Console.WriteLine(line);               
-            }
-            //close the file
-            sr.Close();
-            Console.ReadLine();
+StreamReader sr = new StreamReader("C:\\Users\\anett\\git\\csharp-basics\\teilnehmer.csv");
+//Read the first line of text
+string line = sr.ReadLine();
+//Continue to read until you reach end of file
+while (line != null)
+{
+    line = sr.ReadLine();
+    //write the line to console window
+    Console.WriteLine(line);               
+}
+//close the file
+sr.Close();
 ```
