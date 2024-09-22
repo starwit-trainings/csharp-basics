@@ -43,7 +43,7 @@ Bonus: gestaltet die Zahlenauswahl so, dass es einfach ist, weitere Auswahlmögl
 
 Hinweis zu Einlesen einer Datei:
 ```
-StreamReader sr = new StreamReader("C:\\Users\\anett\\git\\csharp-basics\\teilnehmer.csv");
+StreamReader sr = new StreamReader(<<Dateipfad>>);
 //Read the first line of text
 string line = sr.ReadLine();
 //Continue to read until you reach end of file
@@ -56,3 +56,7 @@ while (line != null)
 //close the file
 sr.Close();
 ```
+
+Klassendiagramm:
+
+![kursmanager](../imgs/OO-concepts-kursmanager.drawio.png)
