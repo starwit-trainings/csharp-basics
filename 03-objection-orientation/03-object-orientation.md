@@ -79,6 +79,49 @@ a:hover {
 * Verwenden einer möglichst realitätsnahen Strukturierungsmöglichkeit
 
 ---
+## Ausgangsprogramm Quader
+```csharp
+class Program
+{
+    static void Main(string[] args)
+    {
+        //Eingabe Höhe (Kommazahl)
+        Console.WriteLine("Höhe: ");
+        double hoehe = Convert.ToDouble(Console.ReadLine());
+
+        //Eingabe Breite (Kommazahl)
+        Console.WriteLine("Breite: ");
+        double breite = Convert.ToDouble(Console.ReadLine());
+
+        //Eingabe Tiefe (Kommazahl)
+        Console.WriteLine("Tiefe: ");
+        double tiefe = Convert.ToDouble(Console.ReadLine());
+
+        //Aufruf Metode BerechenFlaecheninhalt mit Rückgabe des Ergebnisses
+        double flaecheninhalt = BerechenFlaecheninhalt(hoehe, breite, tiefe);
+        Console.WriteLine("Der Flächeninhalt ist: " + flaecheninhalt);
+
+        //AufrufMetode BerechenVolumen mit Rückgabe des Ergebnisses
+        //Ausgabe Volumen
+        double volume = BerechenVolumen(hoehe, breite, tiefe);
+        Console.WriteLine("Das Volumen ist: " + volume);
+
+    }
+
+    //Definition Methode BerechenFlaecheninhalt mit Rückgabe des Ergebnisses
+    static double BerechenFlaecheninhalt(double hoehe, double breite, double tiefe)
+    {
+        return 2* hoehe * breite + 2 * hoehe * tiefe + 2 * breite * tiefe;
+    }
+
+    //Definition Methode BerechenVolumen mit Rückgabe des Ergebnisses
+    static double BerechenVolumen(double hoehe, double breite, double tiefe)
+    {
+        return hoehe * breite * tiefe;
+    }
+}
+```
+---
 ## Klassendefinition
 
 ![Klassendefinition](../imgs/OO-concepts-class-def.drawio.svg)
