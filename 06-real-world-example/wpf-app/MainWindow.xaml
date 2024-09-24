@@ -14,19 +14,20 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="1.5*"/>
             <RowDefinition Height="18*" />
+            <RowDefinition Height="1.5*" />
         </Grid.RowDefinitions>
 
-        <Menu DockPanel.Dock="Top" Grid.Row="0">
+        <Menu Grid.Row="0">
             <MenuItem Header="_File">
                 <MenuItem x:Name="LoadData" Header="_Choose BaseFolder" Click="LoadData_Click"/>
                 <MenuItem Header="_Close" x:Name="ExitApplication" Click="ExitApplication_Click"/>
             </MenuItem>
         </Menu>
         <StackPanel Grid.Row="1" Orientation="Horizontal">
-            <Button x:Name="ShowClubs" Content="Show Clubs" Margin="10,5,0,5" Click="ShowClubs_Click" />
-            <Button x:Name="ShowLeagues" Content="Show Leagues" Margin="5,5,0,5" />
-            <Button x:Name="ShowPlayers" Content="Show Players" Margin="5,5,0,5" />
-            <Button x:Name="ShowGames" Content="Show Games" Margin="5,5,0,5" />
+            <Button x:Name="ShowClubs" Content="Show Clubs" Margin="5,1,0,1" Click="ShowClubs_Click" />
+            <Button x:Name="ShowLeagues" Content="Show Leagues" Margin="5,1,0,1" />
+            <Button x:Name="ShowPlayers" Content="Show Players" Margin="5,1,0,1" />
+            <Button x:Name="ShowGames" Content="Show Games" Margin="5,1,0,1" />
         </StackPanel >        
         <StackPanel Grid.Row="2">
             <DataGrid x:Name="ClubList" Height="Auto" Visibility="Hidden" />
@@ -34,7 +35,14 @@
             <DataGrid x:Name="PlayerList" Height="Auto" Visibility="Hidden" />
             <DataGrid x:Name="GamesList" Height="Auto" Visibility="Hidden" />
         </StackPanel>
-
-
+        <Border Grid.Row="3" CornerRadius="1" BorderBrush="Gray" Background="LightGray" BorderThickness="1" DockPanel.Dock="Top">
+            <StackPanel  Orientation="Horizontal">
+                <Label x:Name="StatusLabel" Margin="5,1,0,1" Content="Data Loaded" FontWeight="Bold" />
+                <Label x:Name="ClubsLabel" Margin="5,1,0,1" Content="Clubs: " />
+                <Label x:Name="LeaguesLabel" Margin="5,1,0,1" Content="Leagues: " />
+                <Label x:Name="PlayersLabel" Margin="5,1,0,1" Content="Players: " />
+                <Label x:Name="GamesLabel" Margin="5,1,0,1" Content="Games: " />
+            </StackPanel >
+        </Border>
     </Grid>
 </Window>

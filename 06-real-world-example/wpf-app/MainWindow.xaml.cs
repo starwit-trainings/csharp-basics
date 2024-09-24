@@ -37,18 +37,22 @@ namespace FootballManager
         {
             var folderDialog = new OpenFolderDialog
             {
-                // Set options here
                 Title = "Choose base folder"
             };
 
             if (folderDialog.ShowDialog() == true)
             {
                 df.LoadData(folderDialog.FolderName);
+                ClubsLabel.Content = "Clubs: " + df.Clubs.Count;
             }
         }
 
         private void ShowClubs_Click(object sender, RoutedEventArgs e)
         {
+            LeagueList.Visibility = Visibility.Hidden;
+            PlayerList.Visibility = Visibility.Hidden;
+            GamesList.Visibility = Visibility.Hidden; 
+
             ClubList.ItemsSource = df.Clubs;
             ClubList.Visibility = Visibility.Visible;
         }
