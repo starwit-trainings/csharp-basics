@@ -7,17 +7,34 @@
         mc:Ignorable="d"
         Title="Football Manager" Height="450" Width="800">
     <Grid>
-        <DockPanel>
-            <Menu DockPanel.Dock="Top">
-                <MenuItem Header="_File">
-                    <MenuItem x:Name="LoadData" Header="_Load Data" Click="LoadData_Click"/>
-                    <MenuItem Header="_Close" x:Name="ExitApplication" Click="ExitApplication_Click"/>
-                </MenuItem>
-            </Menu>
-            <StackPanel>
-                <DataGrid x:Name="ClubList" Height="317" />
-            </StackPanel>
-        </DockPanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="18*" />
+        </Grid.RowDefinitions>
+
+        <Menu DockPanel.Dock="Top" Grid.Row="0">
+            <MenuItem Header="_File">
+                <MenuItem x:Name="LoadData" Header="_Choose BaseFolder" Click="LoadData_Click"/>
+                <MenuItem Header="_Close" x:Name="ExitApplication" Click="ExitApplication_Click"/>
+            </MenuItem>
+        </Menu>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button x:Name="ShowClubs" Content="Show Clubs" Margin="10,5,0,5" Click="ShowClubs_Click" />
+            <Button x:Name="ShowLeagues" Content="Show Leagues" Margin="5,5,0,5" />
+            <Button x:Name="ShowPlayers" Content="Show Players" Margin="5,5,0,5" />
+            <Button x:Name="ShowGames" Content="Show Games" Margin="5,5,0,5" />
+        </StackPanel >        
+        <StackPanel Grid.Row="2">
+            <DataGrid x:Name="ClubList" Height="Auto" Visibility="Hidden" />
+            <DataGrid x:Name="LeagueList" Height="Auto" Visibility="Hidden" />
+            <DataGrid x:Name="PlayerList" Height="Auto" Visibility="Hidden" />
+            <DataGrid x:Name="GamesList" Height="Auto" Visibility="Hidden" />
+        </StackPanel>
+
 
     </Grid>
 </Window>

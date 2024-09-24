@@ -11,6 +11,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml.Serialization;
 using FootballManager.entities;
+using Microsoft.Win32;
 
 namespace FootballManager
 {
@@ -34,8 +35,22 @@ namespace FootballManager
 
         private void LoadData_Click(object sender, RoutedEventArgs e)
         {
-            df.LoadData();
+            var folderDialog = new OpenFolderDialog
+            {
+                // Set options here
+                Title = "Choose base folder"
+            };
+
+            if (folderDialog.ShowDialog() == true)
+            {
+                df.LoadData(folderDialog.FolderName);
+            }
+        }
+
+        private void ShowClubs_Click(object sender, RoutedEventArgs e)
+        {
             ClubList.ItemsSource = df.Clubs;
+            ClubList.Visibility = Visibility.Visible;
         }
     }
 }
