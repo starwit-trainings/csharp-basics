@@ -79,6 +79,10 @@ Or use the run button in your IDE.
 * Look at method ToString in ClubEntity and replace base implementation with the one commented out.
 * create a ToString method for every class, that outputs all fields enclosed in curly brackets
 
+Hint: You can start with a simple version of class diagramm:
+
+![simple class diagramm](../imgs/OO-concepts-footballmanager-small.drawio.png)
+
 ## 02 - Working with objects and relations
 
 ### How to execute
