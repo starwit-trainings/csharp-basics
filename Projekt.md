@@ -13,7 +13,7 @@ Folgendes ist bei der Umsetzung noch wichtig:
 
 Code Review: Nach jeweils einer halben Stunde besprechen wir den Lösungsansatz eines Kursteilnehmers.
 
-Dokumentiert eure Lösung ( möchglichst in einer readme.md):
+Dokumentiert eure Lösung (möchglichst in einer readme.md):
 * Was muss ich machen, um am Projekt weiterarbeiten zu können. Welche Vorinstallationen brauche ich
 * Wichtige Hinweise zum Verständnis der Lösung
 * Wie kann ich die Lösung ausführen
