@@ -60,7 +60,7 @@ Erweitere das Ratespiel (WPF-Anwendung mit weiteren Funktionen:
 
 * Speichere ein Array von Zahlenpaaren zufallsverteilt auf Buttons
 * implementiere die Logik des Spiels
-* verwende Bilder
+* verwende im zweiten Schritt Bilder
 
 ### WPF-Eingabemaske für den Kursmanager oder Fußballmanager
 
