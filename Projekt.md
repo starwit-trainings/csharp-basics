@@ -5,6 +5,7 @@ Programmiert ein kleines eigenes Projekt in dem die Konzeptes des Kurses angewen
 * Variablen
 * Methoden
 * Klassen
+* Arrays oder Listen
 
 Folgendes ist bei der Umsetzung noch wichtig:
 * startet mit kleinen Funktionen und erweitert das Programm, wenn ihr fertig seid.
@@ -47,6 +48,19 @@ Erweitere das Ratespiel (WPF-Anwendung mit weiteren Funktionen:
 * Lest eine Liste von Kursteilnehmern und eine Liste von Wissensfragen über die Informatik ein (z.B. als CSV-Datei)
 * Wählt zufällig einen Teilnehmer und eine Frage aus und stellt Sie auf der Oberfläche dar
 * Zusatzfeature gebt Antwortmöglichkeiten vor und speichert ab, wieviel Antworten falsch und wie viele richtig waren
+
+### Treffe den Button
+
+* Setze einen Button zufällig nach einer bestimmten Zeit um.
+* Lege einen Score an. Der Nutzer bekommt einen Punkt, wenn er es schafft, den Button zu klicken
+* Füge Levels hinzu in jedem Level wird die Zeit zum Klicken des Buttons zwischen den Positionsänderungen kürzer
+* Nehme Bilder statt Buttons
+
+### Memory
+
+* Speichere ein Array von Zahlenpaaren zufallsverteilt auf Buttons
+* implementiere die Logik des Spiels
+* verwende Bilder
 
 ### WPF-Eingabemaske für den Kursmanager oder Fußballmanager
 
