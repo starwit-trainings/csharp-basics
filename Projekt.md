@@ -59,8 +59,4 @@ Erweitere das Ratespiel (WPF-Anwendung mit weiteren Funktionen:
 * Wie setze ich den Kursmanager oder Fußballmanager als Webanwendung um
 * Erklärt den Ansatz euren Kollegen
 
-### Objekterkennung
-
-* Nehmt euch das Beispiel zur Objekterkennung, bekommt es zu laufen und gebt Statistiken darüber aus
-
 ### ... Platz für eigene Ideen
