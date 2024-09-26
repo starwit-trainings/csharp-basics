@@ -3,7 +3,7 @@ marp: true
 paginate: true
 theme: default 
 header: ![h:35](../imgs/starwit.png)
-footer: 'Starwit Technologies GmbH | C# | 1. Tools, Setup & .NET'
+footer: 'Starwit Technologies GmbH | C# | 3. Objektorientierung'
 ---
 
 <style>
@@ -140,3 +140,17 @@ class Program
 ## Beispiel Klasse Quader
 
 ![Beispiel Klasse Quader](../imgs/OO-concepts-class-instance-impl2.drawio.png)
+
+---
+## Dos and Don'ts
+
+* Eine Datei pro Klasse! Datei und Klasse gleich benennen
+* Namespaces beachten
+* Kein Console.ReadLine() in Konstruktoren von Klassen
+* Getter und Setter benutzen
+* Namen und Dokumentation in Englisch
+* Namenskonventionenen absprechen
+* Null-Checks nicht vergessen
+* Exception Handling bedenken
+* Git benutzen
+* Code schreibt ihr immer auch für andere. Macht gegenseitige Code Review
